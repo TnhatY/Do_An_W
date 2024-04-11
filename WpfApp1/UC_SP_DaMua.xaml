@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Do_an.UC_SP_DaMua"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Do_an"
+            
+             mc:Ignorable="d" Width="1011" Height="120" Margin="0,20,0,0" Loaded="UserControl_Loaded">
+
+    <Border Background="White" CornerRadius="5">
+        <Grid >
+            <Image x:Name="hinhanh" Width="90" Height="90" HorizontalAlignment="Left" Margin="10,10,0,0" Stretch="UniformToFill"></Image>
+            <TextBlock x:Name="masp" Width="0" Height="0"></TextBlock>
+            <TextBlock x:Name="tenshop" Width="0" Height="0"></TextBlock>
+            <TextBlock x:Name="tensp" Text="tên sản phẩm" Height="20" VerticalAlignment="Top" FontSize="15" FontWeight="Bold" Margin="10,0,0,0"></TextBlock>
+            <TextBlock x:Name="giaohang" Text="Đơn hàng đã được giao thành công" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontSize="13.5" Margin="0,0,20,0" Foreground="#FF149428" />
+            <TextBlock x:Name="tinhtrang" Text="Tình trạng: " VerticalAlignment="Center" Margin="130,-50,0,0"></TextBlock>
+            <TextBlock  Text="Giá gốc: ₫" TextDecorations="Strikethrough" VerticalAlignment="Center" Margin="130,0,0,0">
+                <Run x:Name="giagoc"></Run>
+            </TextBlock>
+            <TextBlock Text="Thành tiền: ₫" VerticalAlignment="Center" Margin="130,50,0,0" FontSize="13" FontWeight="Bold">
+                <Run x:Name="giaban"></Run>
+            </TextBlock>
+            <Button x:Name="btndanhgia" Width="140" Height="30" HorizontalAlignment="Right" Margin="10,0,20,0" Click="btndanhgia_Click" BorderBrush="#FF92228D" Background="{x:Null}">
+                <TextBlock Text="Đánh giá người bán" FontSize="13"></TextBlock>
+            </Button>
+        </Grid>
+    </Border>
+</UserControl>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DanhGiaSp_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F_Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ThanhToan_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ThemSP_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ThongTin_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TopBan_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TopSanPham_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_CaiDat.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_DaMua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_DanhGia.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_gioHang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_MuaSam.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_SanPham.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_SpBan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_SpGioHang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_SP_DaMua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_ThongKe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_TopTimKiem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="XemDanhGia_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DanhGiaSp_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="F_Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ThanhToan_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ThemSP_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ThongTin_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TopBan_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TopSanPham_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_CaiDat.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_DaMua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_DanhGia.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_gioHang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_MuaSam.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_SanPham.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_SpBan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_SpGioHang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_SP_DaMua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_ThongKe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_TopTimKiem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="XemDanhGia_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

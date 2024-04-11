@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Do_an.UC_DanhGia"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Do_an"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="700" Loaded="UserControl_Loaded">
+    <Border Background="#FFF7EFF9" BorderThickness="0,1,0,0" BorderBrush="#FFDABDF1" >
+        <Grid >
+            <Image x:Name="hinhanh" Source="/image/user3.png" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+            <TextBlock x:Name="ten" Text="{Binding ten}" Margin="70,5,0,0" FontSize="13"></TextBlock>
+            <TextBlock x:Name="ngay" Text="{Binding ngay}" Margin="70,40,0,0" FontSize="10"></TextBlock>
+            <TextBlock x:Name="danhgiasp" Text="{Binding danhgiasp}" Margin="70,60,0,10"></TextBlock>
+            <StackPanel x:Name="starPanel" Orientation="Horizontal" Margin="70,20,0,10"/>
+            <TextBlock x:Name="sosao" Width="0" Height="0" Text="{Binding sosao}"  />
+        </Grid>
+    </Border>
+</UserControl>

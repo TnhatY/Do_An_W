@@ -1,0 +1,562 @@
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Do_an.exe
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Do_an.deps.json
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Do_an.runtimeconfig.json
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Do_an.pdb
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.AssemblyReference.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\F_Main.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_BanHang.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.lref
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\F_Main.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_BanHang.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.g.resources
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfoInputs.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfo.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CoreCompileInputs.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CopyComplete
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\refint\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.pdb
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\Do_an.genruntimeconfig.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\ref\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_ThemSanPham.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_ThemSanPham.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham2.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham2.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll.config
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.AssemblyReference.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\F_Main.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SpGioHang.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.lref
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\refint\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.pdb
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.exe
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll.config
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.deps.json
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.runtimeconfig.json
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.pdb
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\F_Main.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SpGioHang.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.g.resources
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfoInputs.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfo.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CoreCompileInputs.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CopyComplete
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.genruntimeconfig.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ref\Do_an.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Do_an.exe
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll.config
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Do_an.deps.json
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Do_an.runtimeconfig.json
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Do_an.pdb
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.AssemblyReference.cache
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\F_Main.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_BanHang.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham2.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_SpGioHang.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_ThemSanPham.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.cache
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.lref
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\F_Main.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_BanHang.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham2.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_SpGioHang.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_ThemSanPham.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.baml
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.g.resources
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.GeneratedMSBuildEditorConfig.editorconfig
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfoInputs.cache
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfo.cs
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CoreCompileInputs.cache
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CopyComplete
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\refint\Do_an.dll
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.pdb
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\Do_an.genruntimeconfig.cache
+C:\Winform\Do_an_WIND-anh\WpfApp1\obj\Debug\net6.0-windows\ref\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_DanhGia.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_DanhGia.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\DanhGiaSp_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\DanhGiaSp_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SP_DaMua.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SP_DaMua.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SpBan.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SpBan.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\XemDanhGia_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\XemDanhGia_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\TopSanPham_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_TopTimKiem.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\TopSanPham_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_TopTimKiem.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.exe
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll.config
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.deps.json
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.runtimeconfig.json
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Do_an.pdb
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.AssemblyReference.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\DanhGiaSp_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\F_Main.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\TopSanPham_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_DanhGia.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SpBan.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SpGioHang.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SP_DaMua.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_TopTimKiem.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\XemDanhGia_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.lref
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\DanhGiaSp_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\F_Main.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\TopSanPham_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_DanhGia.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SpBan.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SpGioHang.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_SP_DaMua.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\UC_TopTimKiem.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\XemDanhGia_Window.baml
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.g.resources
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfoInputs.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfo.cs
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CoreCompileInputs.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CopyComplete
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\refint\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.pdb
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\Do_an.genruntimeconfig.cache
+D:\Deadline\LTWINDOWS\Do_an_cuoi_ky - Copy - Copy - Copy\WpfApp1\obj\Debug\net6.0-windows\ref\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Do_an.exe
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll.config
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Do_an.deps.json
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Do_an.runtimeconfig.json
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Do_an.pdb
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.AssemblyReference.cache
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\DanhGiaSp_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\F_Main.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\TopSanPham_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_DanhGia.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SpBan.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SpGioHang.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SP_DaMua.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_TopTimKiem.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\XemDanhGia_Window.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.cache
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.lref
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\DanhGiaSp_Window.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\F_Main.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ThanhToan_Window.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ThemSP_Window.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ThongTin_Window.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\TopSanPham_Window.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_DanhGia.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_gioHang.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_MuaSam.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SanPham.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SpBan.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SpGioHang.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SP_DaMua.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_ThongKe.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_TopTimKiem.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\XemDanhGia_Window.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.g.resources
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfoInputs.cache
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.AssemblyInfo.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CoreCompileInputs.cache
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.CopyComplete
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\refint\Do_an.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.pdb
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\Do_an.genruntimeconfig.cache
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ref\Do_an.dll
