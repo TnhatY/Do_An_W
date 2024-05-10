@@ -191,16 +191,22 @@
                 </TextBlock>
                 <TextBlock Width="150" Height="20" TextDecorations="Strikethrough" TextWrapping="Wrap" Foreground="#FF090101"
                     HorizontalAlignment="Center"
-                    FontSize="10.5" Margin="0,155,0,30" TextAlignment="Center" Text="Giá mua mới: ₫">
+                    FontSize="10.5" Margin="0,110,0,0" TextAlignment="Center" Text="Giá mua mới: ₫">
                         <Run x:Name="giagoc" Text="{Binding GiaGoc}"/>
                 </TextBlock>
                 <TextBlock  Width="140" Height="20" Foreground="#FFF41919"
                   HorizontalAlignment="Center" VerticalAlignment="Top" TextAlignment="Center"
-                  FontSize="13" Margin="0,175,0,0" FontWeight="Bold" Text="Giá bán: ₫">
+                  FontSize="13" Margin="0,160,0,0" FontWeight="Bold" Text="Giá bán: ₫">
                      <Run x:Name="giaBan" Text="{Binding GiaHTai}"/>
-                     
-                    
+
                 </TextBlock>
+                <Grid Height="20" VerticalAlignment="Bottom"  >
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" MaxWidth="130" Margin="10 0 10 0">
+                        <Image Source="/image/location.png" Width="13" Height="13" Margin="0 0 0 5"></Image>
+                        <TextBlock x:Name="diachi" Height="20" FontSize="10" ></TextBlock>
+                    </StackPanel>
+                    
+                </Grid>
                 <TextBlock x:Name="tinhtrang" Text="{Binding TinhTrang}" Width="100" Height="20" Foreground="#FFF"
                   HorizontalAlignment="Center"
                   FontSize="16" Margin="200,90,0,0">
@@ -221,7 +227,6 @@
                      HorizontalAlignment="Center"
                      FontSize="16" Margin="200,90,0,0">
                 </TextBlock>
-
             </Grid>
         </Button>
     </Border>

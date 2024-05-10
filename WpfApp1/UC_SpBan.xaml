@@ -13,7 +13,7 @@
             </TextBlock>
             <TextBlock x:Name="masp" Width="0" Height="0" FontWeight="Bold" FontSize="16"/>
 
-            <TextBlock  Text="Tình trạng" Margin="130,40,0,0">
+            <TextBlock  Text="Tình trạng: " Margin="130,40,0,0">
                  <Run x:Name="tinhtrang"></Run>
             </TextBlock>
             <TextBlock Text="Giá bán: " Margin="130,65,0,0">

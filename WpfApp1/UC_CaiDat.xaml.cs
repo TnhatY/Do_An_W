@@ -45,6 +45,11 @@ namespace Do_an
                 string taikhoan = row["TaiKhoan"].ToString();
                 string matkhau = row["MatKhau"].ToString();
                 string diachi = row["DiaChi"].ToString();
+                BitmapImage bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.UriSource = new Uri(row["Avatar"].ToString(), UriKind.RelativeOrAbsolute);
+                bitmap.EndInit();
+                avatar.Source = bitmap;
                 list.Add(new NguoiDung(hoten, ngayThangNam, gioitinh, sodt, email, taikhoan, matkhau, diachi));
             }
             hoten.Text= list[0].hoten;
@@ -53,7 +58,6 @@ namespace Do_an
             sodt.Text= list[0].sodt;
             email.Text= list[0].email;
             diachi.Text= list[0].diachi;
-
         }
     }
 }

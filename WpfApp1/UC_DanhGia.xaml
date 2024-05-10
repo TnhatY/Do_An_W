@@ -8,7 +8,7 @@
              d:DesignHeight="100" d:DesignWidth="700" Loaded="UserControl_Loaded">
     <Border Background="#FFF7EFF9" BorderThickness="0,1,0,0" BorderBrush="#FFDABDF1" >
         <Grid >
-            <Image x:Name="hinhanh" Source="/image/user3.png" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+            <Image x:Name="hinhanh" Source="{Binding avatar}" Width="50" Height="50" Margin="5" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
             <TextBlock x:Name="ten" Text="{Binding ten}" Margin="70,5,0,0" FontSize="13"></TextBlock>
             <TextBlock x:Name="ngay" Text="{Binding ngay}" Margin="70,40,0,0" FontSize="10"></TextBlock>
             <TextBlock x:Name="danhgiasp" Text="{Binding danhgiasp}" Margin="70,60,0,10"></TextBlock>

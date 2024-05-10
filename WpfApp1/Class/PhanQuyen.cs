@@ -9,8 +9,10 @@ namespace Do_an.Class
     public class PhanQuyen
     {
         public static string loaiTk = "";
-        public static string taikhoan = "";
+        public static string taikhoan = "";  
         public static string menu = "";
         public static string ten = "";
+        public static string avatar = "";
+        public static string diachi = "";
     }
 }

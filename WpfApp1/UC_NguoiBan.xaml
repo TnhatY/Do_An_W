@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="Do_an.UC_NguoiBan"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Do_an"
+             mc:Ignorable="d" 
+             Height="170" Width="460" Loaded="UserControl_Loaded">
+    <Grid>
+        <Border Background="#FFF2E3FB" CornerRadius="10" Margin="10">
+            <Grid>
+                <Image x:Name="hinhanh" Width="70" Height="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"></Image>
+                <TextBlock x:Name="ten" Height="30" VerticalAlignment="top" Margin="90 20 0 0" FontSize="14" FontWeight="Bold"></TextBlock>
+                <TextBlock x:Name="sosao" Height="0" Width="0"></TextBlock>
+                <StackPanel x:Name="stackSoSao" Orientation="Horizontal" Height="30" VerticalAlignment="top" Margin="90 45 0 0"></StackPanel>
+                <TextBlock x:Name="luotmua" Text="(" Height="30" VerticalAlignment="top" Margin="180 50 0 0" FontSize="13">
+                    <Run x:Name="sodanhgia"></Run>
+                    <Run Text="Đánh giá)"></Run>
+                </TextBlock>
+                <TextBlock  Text="Số điện thoại: " Height="30" Margin="20 60 0 0" FontSize="13">
+                    <Run x:Name="sdt" ></Run>
+                </TextBlock>
+                <TextBlock  Text="Địa chỉ: " Height="30" Margin="20 110 0 0" FontSize="13">
+                    <Run x:Name="diachi" ></Run>
+                </TextBlock>
+                <Button x:Name="xemdanhgia" Width="90" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20" Click="xemdanhgia_Click" Background="{x:Null}" BorderBrush="#FF5F0F92">
+                    <TextBlock Text="Xem đánh giá" FontSize="13"></TextBlock>
+                </Button>
+            </Grid>
+        </Border>   
+    </Grid>
+</UserControl>

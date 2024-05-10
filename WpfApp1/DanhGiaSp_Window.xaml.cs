@@ -92,8 +92,8 @@ namespace Do_an
             try
             {
                 DanhGia_DAO danhGia_DAO = new DanhGia_DAO();
-                DanhGiaSP danhGiaSP = new DanhGiaSP(tenshop.Text,PhanQuyen.ten,ngayDg.Text,nhanxet.Text,sosao.Text);  
-                danhGia_DAO.themDG(danhGiaSP);
+                DanhGiaSP danhGiaSP = new DanhGiaSP(tenshop.Text,PhanQuyen.ten,ngayDg.Text,nhanxet.Text,int.Parse(sosao.Text),PhanQuyen.avatar);  
+                danhGia_DAO.ThemDG(danhGiaSP,PhanQuyen.avatar);
                 MessageBox.Show("Cảm ơn bạn đã đánh giá!");
                 Close();
             }

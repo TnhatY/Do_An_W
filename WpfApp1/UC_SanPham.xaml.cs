@@ -2,6 +2,7 @@
 using Do_an.Class;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,24 +30,11 @@ namespace Do_an
         }
         //public event EventHandler<DataEventArgs> DataRequested;
 
-      
+        NguoiDung nguoiDung=new NguoiDung();
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            //ThongTin_Window thongTin = new ThongTin_Window();
-            //thongTin.TenSP.Text = ten.Text;
-           // thongTin.MaSP.Text = masp.Text;
-            //thongTin.TenShop.Text =tenshop.Text;
-            //thongTin.GiaGoc.Text = giagoc.Text;
-            //thongTin.GiaBan.Text = giaBan.Text;
-            //thongTin.NgayMua.Text = ngaymua.Text;
-            //thongTin.TinhTrang.Text = tinhtrang.Text;
-            //thongTin.MoTa.Text = mota.Text;
-            //thongTin.HinhAnh.Source = hinhanh.Source;
-            //MessageBox.Show(ngaymua.Text);
             SanPham_DAO sanPham_DAO = new SanPham_DAO();
-            sanPham_DAO.HienThiThongTin(masp.Text);
-
-           // thongTin.ShowDialog(); 
+            sanPham_DAO.HienThiThongTin(masp.Text,diachi.Text);
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -59,6 +47,22 @@ namespace Do_an
                 bitmap.EndInit();
                 imagetim.Source = bitmap;
             }
+            try
+            {
+                string query = $"select top 1 DiaChi From NguoiDung where HoTen=N'{tenshop.Text}'";
+                Database database = new Database();
+                DataTable dt = database.getAllData(query);
+                foreach (DataRow dr in dt.Rows)
+                {
+                    diachi.Text = dr["DiaChi"].ToString();
+                }
+                PhanQuyen.diachi = diachi.Text;
+            }
+            catch (Exception ex)
+            {
+
+            }
+           
         }
 
         private void tim_Checked(object sender, RoutedEventArgs e)
@@ -70,7 +74,7 @@ namespace Do_an
             imagetim.Source = bitmap;
             SanPham_DAO sanPham_DAO = new SanPham_DAO();
             string sql = "Insert into SP_YeuThich values (@MaSP,@TaiKhoan)";
-            if (sanPham_DAO.themGioHang(masp.Text, PhanQuyen.taikhoan, sql))
+            if (nguoiDung.ThemGioHang(masp.Text, PhanQuyen.taikhoan, sql))
             {
                 return;
             }

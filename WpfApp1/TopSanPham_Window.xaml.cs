@@ -37,7 +37,7 @@ namespace Do_an
                 string sql2 = "Select * from TopDanhMuc where LuotTimKiem >= 0";
                 //string query = $"select * from SanPham where DanhMucSP like N'%" + category + "%' and SoLanTimKiem > 0";
 
-                item.ItemsSource = SanPham_DAO.Getlist(query);
+                item.ItemsSource = SanPham_DAO.List_SP(query);
             }
             catch (Exception ex)
             {

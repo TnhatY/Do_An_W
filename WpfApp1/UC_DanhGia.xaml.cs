@@ -23,33 +23,13 @@ namespace Do_an
         public UC_DanhGia()
         {
             InitializeComponent();
-            //int saoCount = int.Parse(sosao.Text);
-             // Xóa bỏ nội dung hiện tại của sosao.Text
            
         }
-        private void DisplayStars(int numberOfStars)
-        {
-            starPanel.Children.Clear();
-            for (int i = 0; i < numberOfStars; i++)
-            {
-                TextBlock saoTextBlock = new TextBlock();
-                saoTextBlock.Foreground = Brushes.Red;
-                saoTextBlock.Text = "☆";
-                starPanel.Children.Add(saoTextBlock);
-            }
-
-            for (int i = numberOfStars; i < 5; i++)
-            {
-                TextBlock saoTextBlock = new TextBlock();
-                saoTextBlock.Text = "☆";
-                starPanel.Children.Add(saoTextBlock); 
-            }
-        }
-
+        DanhGia_DAO danhGia_DAO = new DanhGia_DAO();
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             int saoCount = int.Parse(sosao.Text);
-            DisplayStars(saoCount);
+            danhGia_DAO.HienThiSoSao(saoCount,starPanel);
         }
     }
 }

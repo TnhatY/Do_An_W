@@ -76,7 +76,7 @@
             <TextBlock x:Name="txtdanhgia" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" FontSize="14" TextAlignment="Center"></TextBlock>
             <ScrollViewer>
                 <Border Margin="10">
-                    <ItemsControl x:Name="thongtin">
+                    <ItemsControl x:Name="itemdanhgia">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate >
                                 <local:UC_DanhGia Margin="10"/>

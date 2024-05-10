@@ -13,6 +13,9 @@
     <Compile Update="F_Main.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="LyDoHuyDon_WD.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ThanhToan_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +46,12 @@
     <Compile Update="UC_MuaSam.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_NguoiBan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_QL_NguoiBan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_SanPham.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -55,7 +64,10 @@
     <Compile Update="UC_SP_DaMua.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_ThongKe.xaml.cs">
+    <Compile Update="UC_SP_ThanhToan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_Thongke.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_TopTimKiem.xaml.cs">
@@ -70,6 +82,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="F_Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LyDoHuyDon_WD.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
@@ -105,6 +120,12 @@
     <Page Update="UC_MuaSam.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_NguoiBan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_QL_NguoiBan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_SanPham.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -117,7 +138,10 @@
     <Page Update="UC_SP_DaMua.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_ThongKe.xaml">
+    <Page Update="UC_SP_ThanhToan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_Thongke.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_TopTimKiem.xaml">

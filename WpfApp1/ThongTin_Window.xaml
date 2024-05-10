@@ -339,8 +339,8 @@
         </Style>
     </Window.Resources>
     <Grid Margin="10" Background="#FFF5E8F6">
-        <Button Style="{DynamicResource ButtonStyle5}" x:Name="btnThoat" Width="30" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnThoat_Click_1" Margin="0,0,0,0" BorderThickness="0,0,0,0" Background="{x:Null}">
-            <Image Source="/image/xx.png" Width="30" Height="30" Stretch="Fill"></Image>
+        <Button Style="{DynamicResource ButtonStyle5}" x:Name="btnThoat" Width="35" Height="35" HorizontalAlignment="Right" VerticalAlignment="Top" Click="btnThoat_Click_1" Margin="0,0,0,0" BorderThickness="0,0,0,0" Background="{x:Null}">
+            <Image Source="/image/xx.png" Width="35" Height="35" Stretch="Fill"></Image>
         </Button>
 
         <TextBlock x:Name="TenSP" FontSize="24" Height="30" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,5,0,0" VerticalAlignment="Top" Grid.RowSpan="2" />
@@ -354,12 +354,12 @@
 
                     <Grid>
                         <Button Style="{DynamicResource ButtonStyle5}" x:Name="NextButton" Click="NextButton_Click" HorizontalAlignment="Left" Width="30" Margin="365,175,0,0" Height="30" VerticalAlignment="Top" Background="{x:Null}" BorderThickness="0,0,0,0">
-                            <Image Source="/image/next.png"/>
+                            <Image Source="/image/next.png" Opacity="0.8"/>
                         </Button>
                     </Grid>
                     <Grid>
                         <Button Style="{DynamicResource ButtonStyle5}" x:Name="PreviousButton" Click="PreviousButton_Click" HorizontalAlignment="Left" Width="30" Margin="5,175,0,0" Height="30" VerticalAlignment="Top" Background="{x:Null}" BorderThickness="0,0,0,0">
-                            <Image Source="/image/back.png"></Image>
+                            <Image Source="/image/back.png" Opacity="0.8"/>
                         </Button>
                     </Grid>
 
@@ -369,10 +369,12 @@
                         <Grid Height="50" Margin="10,0,10,0">
                             <Image Source="/image/user2.png" HorizontalAlignment="Left"></Image>
                             <TextBlock Width="200" HorizontalAlignment="Left" FontWeight="SemiBold" FontSize="15
-                                       " Margin="53,5,0,20">
+                                       " Margin="55,5,0,20">
                                 <Run x:Name="TenShop"></Run>
                             </TextBlock>
-                            <TextBlock Text="☆☆☆☆☆"  Margin="53,25,0,0" FontSize="16"/>
+                            <StackPanel x:Name="starPanel" Orientation="Horizontal" Margin="55,25,0,0"/>
+
+                            
                             <TextBlock Text="(" Margin="130,26,0,0" Foreground="#FF1E31B8" FontSize="14" FontWeight="Bold">
                                 <Run x:Name="sodanhgia"></Run>
                                 <Run Text="đánh giá)"></Run>
@@ -380,18 +382,19 @@
 
                             <Button x:Name="xem" Width="90" Height="25" Content="Xem đánh giá" HorizontalAlignment="Right" Margin="0,0,10,0" Background="{x:Null}" BorderBrush="#FF6F1A7B" Click="xem_Click"></Button>
                         </Grid>
-                        <Border Height="70" Margin="10,40,10,0" CornerRadius="5" Background="#FFF5E8F6">
+                        <Border Height="70" Margin="10,35,10,5" CornerRadius="5" Background="#FFF5E8F6">
                             <Grid >
                                 <Image Source="/image/xanh.PNG" Width="65" Height="70" HorizontalAlignment="Left"></Image>
                                 <TextBlock Text="Thanh toán đảm bảo khi MUA NGAY" Margin="60,10,0,0" FontWeight="Bold" FontSize="14"></TextBlock>
                                 <TextBlock Text="Hoàn tiền 100% nếu không nhận được hàng" VerticalAlignment="Bottom" Margin="60,0,0,15"></TextBlock>
                             </Grid>
                         </Border>
-                        <TextBlock Text="Giá Bán: ₫" FontWeight="Bold" Foreground="Green" FontSize="16" Margin="10,30,0,0">
-                            <Run x:Name="GiaBan"></Run>
+                        <Image Source="/image/price.png" Width="25" Margin="10,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></Image>
+                        <TextBlock Text="Giá mua mới: ₫" FontSize="14" Margin="45,-25,0,0" TextDecorations="Strikethrough" >
+                            <Run x:Name="GiaGoc"></Run>
                         </TextBlock>
-                        <TextBlock Height="0" Width="0" FontSize="1" Margin="0,10,0,0">
-                            <Run x:Name="NgayMua"></Run>
+                        <TextBlock Text="Giá Bán: ₫" FontWeight="Bold" Foreground="Green" FontSize="16" Margin="10,10,0,0">
+                            <Run x:Name="GiaBan"></Run>
                         </TextBlock>
                         <Button Style="{DynamicResource ButtonStyle4}" x:Name="btnMua" Content="Mua ngay" HorizontalAlignment="Stretch" Background="Red"  Foreground="White" Padding="5" Margin="40,20,40,0" Click="btnMua_Click" FontSize="14" FontWeight="Bold" />
                         <Button Style="{DynamicResource ButtonStyle6}" x:Name="btnThemGioHang" Content="Thêm giỏ hàng" HorizontalAlignment="Stretch" Padding="5" Margin="40,10,40,0" Click="btnThemGioHang_Click" Background="#FFF3ABAB" FontSize="13" FontWeight="Bold" Foreground="#FFF11E1E" BorderBrush="#FFF81111" />
@@ -406,20 +409,29 @@
                 </Grid>
 
                 <Border  VerticalAlignment="Top" Height="200" Background="White"  Margin="15,420,15,0">
-                    <Grid Height="100">
+                    <Grid Height="150" Margin="10 50 10 0">
                         <TextBlock Text="Mô tả sản phẩm" VerticalAlignment="Top" Margin="5,-45,0,0" FontSize="16" FontWeight="Bold"/>
-                        <TextBlock VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" Margin="40,10,50,0" >
+                        <TextBlock VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" Margin="40,-10,50,0" >
                             <Run x:Name="MoTa"></Run>
                         </TextBlock>
-                        <Image Source="/image/condition_ad.png" VerticalAlignment="Top" HorizontalAlignment="Left" Width="20" Margin="10,10,0,0" ></Image>
-                        <TextBlock Text="Tình Trạng: " FontSize="14" Margin="40,10,0,0" >
+                        <Image Source="/image/condition_ad.png" VerticalAlignment="Top" HorizontalAlignment="Left" Width="23" Margin="10,-13,0,0" ></Image>
+                        <TextBlock Text="Tình Trạng: " FontSize="14" Margin="45,-10,0,0" >
                             <Run x:Name="TinhTrang"></Run>
                         </TextBlock>
-                        <Image Source="/image/price.png" Width="22" Margin="10,-15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></Image>
-                        <TextBlock Text="Giá mua mới: ₫" FontSize="14" Margin="40,-15,0,0" >
-                            <Run x:Name="GiaGoc"></Run>
+                       
+                        <Image Source="/image/lich.png" Width="25" Height="25" Margin="40,-13,0,0" VerticalAlignment="Top" ></Image>
+                        <TextBlock Text="Ngày mua: " FontSize="14" Margin="440,-10,0,0" >
+                            <Run x:Name="Ngaymua"></Run>
                         </TextBlock>
-
+                        <Grid Width="400" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 10 10">
+                                <Image Source="/image/location2.png" Width="20" VerticalAlignment="Bottom" Margin="0 0 10 0"></Image>
+                                <TextBlock  Text="Địa chỉ: "  FontSize="13"  VerticalAlignment="Bottom" >
+                                    <Run x:Name="diachi"></Run>
+                                </TextBlock>
+                            </StackPanel>
+                          
+                        </Grid>
                     </Grid>
                 </Border>
                 <Border  VerticalAlignment="Top" Margin="15,650,15,10">
@@ -429,7 +441,7 @@
                         </TextBlock>
                         <TextBlock x:Name="chuDG" Margin="30,30,0,20"></TextBlock>
 
-                        <ItemsControl x:Name="thongtin" Margin="5,30,5,0" Padding="0,0,10,10">
+                        <ItemsControl x:Name="thongtin" Margin="5,30,5,0">
                             <ItemsControl.ItemsPanel>
                                 <ItemsPanelTemplate>
                                     <WrapPanel Orientation="Horizontal" />
@@ -437,7 +449,7 @@
                             </ItemsControl.ItemsPanel>
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate >
-                                    <local:UC_SanPham Margin="2.5"/>
+                                    <local:UC_SanPham Margin="3.5"/>
                                 </DataTemplate>
                             </ItemsControl.ItemTemplate>
                         </ItemsControl>

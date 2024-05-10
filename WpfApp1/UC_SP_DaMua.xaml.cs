@@ -26,7 +26,7 @@ namespace Do_an
         {
             InitializeComponent();
         }
-
+        NguoiBan nguoiBan=new NguoiBan();
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             if (PhanQuyen.menu == "YeuThich")
@@ -40,6 +40,21 @@ namespace Do_an
             DanhGiaSp_Window danhGiaSp_Window = new DanhGiaSp_Window();
             danhGiaSp_Window.tenshop.Text = tenshop.Text;
             danhGiaSp_Window.ShowDialog();
+        }
+
+        private void btnhuydon_Click(object sender, RoutedEventArgs e)
+        {
+            LyDoHuyDon_WD f=new LyDoHuyDon_WD();
+            f.ShowDialog();
+            if (LyDoHuyDon_WD.confirm == "yes")
+            {
+                string query = $"delete from SP_DaMua where MaSP='{masp.Text}'";
+                SanPham_DAO sanPham_DAO = new SanPham_DAO();
+                nguoiBan.Xoa(query);
+                btnhuydonhang.Visibility = Visibility.Collapsed;
+                thongbaohuydon.Text = "Đơn hàng đã được huỷ!";
+                giaohang.Text = "Cảm ơn bạn đã quan tâm!";
+            }
         }
     }
 }

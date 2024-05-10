@@ -117,14 +117,14 @@
             </Setter>
         </Style>
     </UserControl.Resources>
-    <Border CornerRadius="5">
-        
-                <Grid x:Name="gvSpGioHang" >
-               
-                <ToggleButton Style="{DynamicResource ToggleButtonStyle1}" x:Name="Thoat" BorderThickness="1" BorderBrush="Black" Background="White" Width="30" Height="30" Margin="0,0,0,0" HorizontalAlignment="Right" Checked="Thoat_Checked" Unchecked="Thoat_Unchecked" >
-                    <Image x:Name="imagecheck"></Image>
-                </ToggleButton>
-            <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnHienThiThonTin" Background="White" Margin="0,0,50,0" BorderThickness="0,0,0,0" Click="btnHienThiThonTin_Click">
+    <Border  CornerRadius="5">
+
+        <Grid x:Name="gvSpGioHang" >
+
+            <ToggleButton Style="{DynamicResource ToggleButtonStyle1}" x:Name="Thoat" BorderThickness="1" BorderBrush="Black" Background="White" Width="30" Height="30" Margin="0,0,0,0" HorizontalAlignment="Left" Checked="Thoat_Checked" Unchecked="Thoat_Unchecked" >
+                <Image x:Name="imagecheck"></Image>
+            </ToggleButton>
+            <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnHienThiThonTin" Background="White" Margin="50,0,0,0" BorderThickness="0,0,0,0" Click="btnHienThiThonTin_Click">
                 <Grid>
                     <Image x:Name="hinhanh" Source="{Binding HinhAnh}" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" Height="100" Width="120" Stretch="UniformToFill"/>
                     <TextBlock x:Name="masp" VerticalAlignment="Top" Width="0" Height="0"></TextBlock>
@@ -142,9 +142,7 @@
 
                 </Grid>
             </Button>
-           
-            </Grid>
-
+        </Grid>
     </Border>
 
 </UserControl>

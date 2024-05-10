@@ -13,13 +13,13 @@
 
             <Grid Height="170">
 
-                <TextBlock Height="22" Foreground="#FF090101"
-                    FontSize="14" Margin="0,0,0,5" VerticalAlignment="Bottom" TextAlignment="Center">
+                <TextBlock Height="22" Foreground="#FF090101" FontWeight="Medium"
+                    FontSize="14" Margin="0,0,0,3" VerticalAlignment="Bottom" TextAlignment="Center">
                     <Run x:Name="danhmuc"/>
                 </TextBlock>
-                <Image x:Name="hinhanh" Height="135" Width="130" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="UniformToFill"/>
+                <Image x:Name="hinhanh" Height="140" Width="130" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="UniformToFill"/>
                 <Image x:Name="imgTop" Source="/image/top.png" HorizontalAlignment="Left" VerticalAlignment="Top" Width="31" Height="39" Stretch="UniformToFill"/>
-                <TextBlock Foreground="#FFFF7800" Padding="0,3,0,0" HorizontalAlignment="Center" Width="130" Height="25" Margin="0,110,0,0" VerticalAlignment="Top"  TextAlignment="Center" Background="#BF87F2F6" FontWeight="Bold" >
+                <TextBlock Foreground="White" Padding="0,3,0,0" HorizontalAlignment="Center" Width="130" Height="25" Margin="0,115,0,0" VerticalAlignment="Top"  TextAlignment="Center" Background="#99F627FC" FontWeight="Bold" >
                     <Run x:Name="soluong" />
                      <Run Text="lượt tìm kiếm"></Run>
                 </TextBlock>

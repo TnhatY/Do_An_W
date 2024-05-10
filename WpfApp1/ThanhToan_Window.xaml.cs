@@ -26,71 +26,95 @@ namespace Do_an
         {
             InitializeComponent();
         }
-
-        private void btnThoat_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-
-
+        Database database = new Database();
+        NguoiDung nguoiDung =new NguoiDung();
+      
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            giaban1.Text = giaban.Text;
-            phivanchuyen.Text = "12000";
-            float giaBan = float.Parse(giaban.Text);
+            phivanchuyen.Text = "120";
+            float giaBan = 0;
             float phiVanChuyen = float.Parse(phivanchuyen.Text);
-
+            spmua.ItemsSource = null;
+            try
+            {
+                List<UC_SP_ThanhToan> list = new List<UC_SP_ThanhToan>();
+                DataTable dtt = new DataTable();
+                if (PhanQuyen.menu=="GioHang")
+                {
+                    foreach (var sp in Const.listgiohang)
+                    {
+                        string sql1 = $"select * from SanPham Where MaSP='{sp}'";
+                        dtt = database.getAllData(sql1);
+                        foreach (DataRow dr in dtt.Rows)
+                        {
+                            UC_SP_ThanhToan uC_SP_ThanhToan = new UC_SP_ThanhToan();
+                            uC_SP_ThanhToan.tensp.Text = dr["TenSP"].ToString();
+                            uC_SP_ThanhToan.giaban.Text = dr["GiaHTai"].ToString();
+                            giaBan += float.Parse(dr["GiaHTai"].ToString());
+                            uC_SP_ThanhToan.tinhtrang.Text = dr["TinhTrang"].ToString();
+                            BitmapImage bitmap = new BitmapImage();
+                            bitmap.BeginInit();
+                            bitmap.UriSource = new Uri(dr["HinhAnh"].ToString(), UriKind.RelativeOrAbsolute);
+                            bitmap.EndInit();
+                            uC_SP_ThanhToan.hinhanhsp.Source = bitmap;
+                            list.Add(uC_SP_ThanhToan);
+                        }
+                    }
+                   
+                    spmua.ItemsSource= list;
+                }
+                else
+                {
+                    string sql1 = $"select * from SanPham Where MaSP='{masp.Text}'";
+                    dtt = database.getAllData(sql1);
+                    foreach (DataRow dr in dtt.Rows)
+                    {
+                        UC_SP_ThanhToan uC_SP_ThanhToan = new UC_SP_ThanhToan();
+                        uC_SP_ThanhToan.tensp.Text = dr["TenSP"].ToString();
+                        uC_SP_ThanhToan.giaban.Text = dr["GiaHTai"].ToString();
+                        giaBan += float.Parse(dr["GiaHTai"].ToString());
+                        uC_SP_ThanhToan.tinhtrang.Text= dr["TinhTrang"].ToString();
+                        BitmapImage bitmap = new BitmapImage();
+                        bitmap.BeginInit();
+                        bitmap.UriSource = new Uri(dr["HinhAnh"].ToString(), UriKind.RelativeOrAbsolute);
+                        bitmap.EndInit();
+                        uC_SP_ThanhToan.hinhanhsp.Source = bitmap;
+                        list.Add(uC_SP_ThanhToan);
+                    }
+                    spmua.ItemsSource = list;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            giaban1.Text = giaBan.ToString();
             float tongThanToan = giaBan + phiVanChuyen;
             tongthanhtoan.Text = tongthanhtoan1.Text = tongThanToan.ToString();
-            Database database = new Database();
-            string sql = "select DiaChi From NguoiDung where TaiKhoan='theanh' ";
+            string sql = $"select DiaChi From NguoiDung where TaiKhoan='{PhanQuyen.taikhoan}'";
             DataTable dt = database.getAllData(sql);
             diachi.Text = dt.Rows[0]["DiaChi"].ToString();
         }
-
-
-        private void btnDatHang_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void btnMua_Click(object sender, RoutedEventArgs e)
         {
-            try
+            if (PhanQuyen.menu == "GioHang")
             {
-                string taikhoan = PhanQuyen.taikhoan;
-                DateTime now = DateTime.Now;
-                Database database = new Database();
-                string xacNhan = "no";
-                SqlConnection sqlConnection = database.getConnection();
-                string sql = "insert into SP_DaMua values (@MaSP,@TaiKhoan,@XacNhan)";
-                using (SqlConnection connection = new SqlConnection(database.conStr))
+                foreach(var masp in Const.listgiohang)
                 {
-                    connection.Open();
-                    using (SqlCommand command = new SqlCommand(sql, connection))
-                    {
-                        command.Parameters.AddWithValue("@MaSP", masp.Text);
-                        command.Parameters.AddWithValue("@TaiKhoan", PhanQuyen.taikhoan);
-                        command.Parameters.AddWithValue("@XacNhan", xacNhan);
-                        command.ExecuteNonQuery();
-                    }
+                    nguoiDung.Dat_Hang(masp);
                 }
+                Const.kiemTraThanhToan = true;
             }
-            catch (Exception Fail)
+            else
             {
-                MessageBox.Show(Fail.Message);
+                nguoiDung.Dat_Hang(masp.Text);
             }
-
-            MessageBox.Show("Đơn hàng đã được đặt! Vui lòng kiểm tra trạng thái giao hàng!");
-            //DanhGiaSp_Window danhGiaSp_Window = new DanhGiaSp_Window();
-            //danhGiaSp_Window.masp.Text = masp.Text;
-            //danhGiaSp_Window.ShowDialog();
-            //this.Hide();
             Close();
         }
 
         private void thoat_Click(object sender, RoutedEventArgs e)
         {
+            Const.kiemTraThanhToan = false;
             Close();
         }
     }

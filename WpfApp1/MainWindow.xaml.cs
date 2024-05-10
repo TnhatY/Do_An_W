@@ -65,6 +65,7 @@ namespace Do_an
                         PhanQuyen.loaiTk = row["LoaiTK"].ToString();
                         PhanQuyen.taikhoan = row["TaiKhoan"].ToString();
                         PhanQuyen.ten = row["HoTen"].ToString();
+                        PhanQuyen.avatar = row["Avatar"].ToString();
                     }
                 }
                 if (check)

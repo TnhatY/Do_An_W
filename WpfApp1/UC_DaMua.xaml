@@ -52,40 +52,56 @@
             </Style.Triggers>
         </Style>
     </UserControl.Resources>
-    <Border CornerRadius="20" Background="#FFE0CDED">
+    <Border CornerRadius="20" Background="#FFE0CDED" >
         <Grid >
-            <Grid Height="50" VerticalAlignment="Top" 
-                  Margin="0,7,0,0">
+            <Border Height="45" VerticalAlignment="Top" 
+                    Margin="0,0,0,0" Background="White" CornerRadius="15 15 0 0" BorderThickness="0 2 0 0" BorderBrush="#FF8113A5">
+                <Grid >
                 <TextBlock x:Name="tittle" Text="Các sản phẩm đã mua " Foreground="#FF6F0C0C" FontSize="16" FontWeight="Bold"
-                    Margin="10,-10,0,0"
-                           VerticalAlignment="Center"></TextBlock>
+                    Margin="10,-5,0,0"
+                    VerticalAlignment="Center"></TextBlock>
 
-                <Button x:Name="xoa" Width="70" Height="28" VerticalAlignment="Top" Margin="0,7,50,0" HorizontalAlignment="Right"  Background="{x:Null}" BorderBrush="#FF86168E" Click="xoa_Click">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="/image/trash.png"></Image>
+                    <Button x:Name="xoa" Width="70" Height="28" VerticalAlignment="Top" Margin="0,7,50,0" HorizontalAlignment="Right"  Background="{x:Null}" BorderBrush="#FF86168E" Click="xoa_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/image/trash.png"></Image>
 
-                        <TextBlock Text="Xoá" VerticalAlignment="Center" Margin="5,0,0,0"></TextBlock>
-                    </StackPanel>
-                </Button>
-                <Button x:Name="spdamua" Width="300" Height="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="-300,0,0,15" Content="Sản phẩm đã mua" Click="spdamua_Click" Background="{x:Null}" BorderBrush="#FFCA2929" BorderThickness="0,0,0,0" FontSize="14" FontWeight="Bold"></Button>
-                <Button x:Name="spdangban" Width="300" Height="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="-300,0,0,15" Content="Sản phẩm đang bán"  Background="{x:Null}" BorderBrush="#FFCA2929" BorderThickness="0,0,0,0" FontSize="14" FontWeight="Bold" Click="spdangban_Click"></Button>
-                <Button x:Name="spchoxacnhan" Width="300" Height="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="300,0,0,15"  Content="Đơn hàng chờ xác nhận"  Background="{x:Null}" BorderBrush="#FFCA2929" BorderThickness="0,0,0,0" FontSize="14" FontWeight="Bold" Click="spchoxacnhan_Click"></Button>
-                <Button x:Name="spchuaxacnhan" Width="300" Height="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="300,0,0,15"  Content="Đang chờ xác nhận" Click="spchuaxacnhan_Click" Background="{x:Null}" BorderThickness="0,0,0,0" BorderBrush="#FFDC3B3B" FontSize="14" FontWeight="Bold"/>
-            </Grid>
+                            <TextBlock Text="Xoá" VerticalAlignment="Center" Margin="5,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="mua" Width="70" Height="28" VerticalAlignment="Top" Margin="0,7,150,0" HorizontalAlignment="Right"  Background="{x:Null}" BorderBrush="#FF86168E" Click="mua_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/image/buy2.png"></Image>
+
+                            <TextBlock Text="Mua" VerticalAlignment="Center" Margin="5,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="spdamua" Width="300" Height="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="-300,0,0,0" Content="Sản phẩm đã mua" Click="spdamua_Click" Background="{x:Null}" BorderBrush="#FFCA2929" BorderThickness="0,0,0,0" FontSize="14" FontWeight="Bold"></Button>
+                    <Button x:Name="spdangban" Width="300" Height="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="-300,0,0,0" Content="Sản phẩm đang bán"  Background="{x:Null}" BorderBrush="#FFCA2929" BorderThickness="0,0,0,0" FontSize="14" FontWeight="Bold" Click="spdangban_Click"></Button>
+                    <Button x:Name="spchoxacnhan" Width="300" Height="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="300,0,0,0"  Content="Đơn hàng chờ xác nhận"  Background="{x:Null}" BorderBrush="#FFCA2929" BorderThickness="0,0,0,0" FontSize="14" FontWeight="Bold" Click="spchoxacnhan_Click"></Button>
+                    <Button x:Name="spchuaxacnhan" Width="300" Height="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="300,0,0,0"  Content="Đang chờ xác nhận" Click="spchuaxacnhan_Click" Background="{x:Null}" BorderThickness="0,0,0,0" BorderBrush="#FFDC3B3B" FontSize="14" FontWeight="Bold"/>
+                </Grid>
+            </Border>
+            
 
             <Border Margin="0,50,0,0"
             CornerRadius="5,5,20,20"
-             BorderBrush="#FFC911B3" BorderThickness="0,2,0,0">
+             BorderBrush="#FFC911B3" BorderThickness="0,0,0,0">
+                <Grid>
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
-                    <ItemsControl x:Name="listsp" ItemsSource="{Binding List}">
+                    <Grid>
+                            <TextBlock  x:Name="thongbao" Text="Chưa có sản phẩm nào!" HorizontalAlignment="Center" Margin="40" FontSize="14" FontStyle="Italic"></TextBlock>
+
+                            <ItemsControl x:Name="listsp" ItemsSource="{Binding List}">
                         
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate >
-                                <local:UC_SanPham Margin="5"/>
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-                </ScrollViewer>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate >
+                                    <local:UC_SanPham Margin="5"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                    </ScrollViewer>
+                </Grid>
             </Border>
 
         </Grid>

@@ -24,32 +24,39 @@ namespace Do_an
         public UC_SpBan()
         {
             InitializeComponent();
-            delete.Click += delete_Click;
         }
         public static bool checkxoa=false;
+        NguoiBan nguoiBan=new NguoiBan();
         private void edit_Click(object sender, RoutedEventArgs e)
         {
             ThemSP_Window themSP_Window = new ThemSP_Window();
             themSP_Window.btnThem.Visibility = Visibility.Hidden;
-            Database database =new Database();
             string ma = masp.Text;
             SanPham_DAO sanPham_DAO = new SanPham_DAO();
-            sanPham_DAO.edit(ma, themSP_Window);
+            sanPham_DAO.LayThongTin_SP_LenFormChinhSua(ma, themSP_Window);
             themSP_Window.ShowDialog();
         }
 
         private void delete_Click(object sender, RoutedEventArgs e)
         {
             checkxoa = true;
-
-            SanPham_DAO sanPham_DAO = new SanPham_DAO();
-            string query = "delete from SanPham where MaSP=@MaSP";
-            string query2 = "delete from SP_Ban where MaSP=@MaSP";
-            sanPham_DAO.xoa(masp.Text, query);
-            sanPham_DAO.xoa(masp.Text, query2);
-            MessageBox.Show("Xoá thành cong");
-            UC_DaMua uC_DaMua = new UC_DaMua();
-            uC_DaMua.ReloadDataSPBan();
+            try
+            {
+                string query = $"delete from SanPham where MaSP='{masp.Text}'";
+                string query2 = $"delete from SP_Ban where MaSP='{masp.Text}'";
+                MessageBoxResult tb = MessageBox.Show("Bạn có muốn xoá sản phẩm này không", "Cảnh báo", MessageBoxButton.YesNo);
+                if(tb == MessageBoxResult.Yes)
+                {
+                    nguoiBan.Xoa(query);
+                    nguoiBan.Xoa(query2);
+                    MessageBox.Show("Sản phẩm đã được xoá");
+                }
+            }
+            catch
+            {
+                   
+            }
+            
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -83,7 +90,7 @@ namespace Do_an
             }
             catch (Exception Fail)
             {
-                MessageBox.Show(Fail.Message);
+                MessageBox.Show(Fail.Message);   
             }
 
         }

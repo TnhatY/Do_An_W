@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Do_an
 {
     /// <summary>
-    /// Interaction logic for UC_ThongKe.xaml
+    /// Interaction logic for UC_Thongke.xaml
     /// </summary>
-    public partial class UC_ThongKe : UserControl
+    public partial class UC_Thongke : UserControl
     {
-        public UC_ThongKe()
+        public UC_Thongke()
         {
             InitializeComponent();
         }

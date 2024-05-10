@@ -15,10 +15,10 @@ namespace Do_an.Class
 {
     internal class SanPham_DAO
     {
-        public List<SanPham> Getlist(string sql)
+        Database database = new Database();
+        public List<SanPham> List_SP(string sql)
         {
             List<SanPham> sanPhams = new List<SanPham>();
-            Database database = new Database();
             try
             {
                 DataTable dt = database.getAllData(sql);
@@ -45,128 +45,10 @@ namespace Do_an.Class
             }
 
         }
-        public void Them_Sua(SanPham sp, string query)
-        {
-            try
-            {
-                Database database = new Database();
-                SqlConnection sqlConnection = database.getConnection();
-                using (SqlConnection connection = new SqlConnection(database.conStr))
-                {
-                    connection.Open();
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@MaSP", sp.MaSP);
-                        command.Parameters.AddWithValue("@TenSP", sp.TenSP);
-                        command.Parameters.AddWithValue("@TenShop", sp.TenShop);
-                        command.Parameters.AddWithValue("@GiaGoc", sp.GiaGoc);
-                        command.Parameters.AddWithValue("@GiaHTai", sp.GiaHTai);
-                        command.Parameters.AddWithValue("@NgayMua", sp.NgayMua);
-                        command.Parameters.AddWithValue("@TinhTrang", sp.TinhTrang);
-                        command.Parameters.AddWithValue("@MoTa", sp.MoTa);
-                        command.Parameters.AddWithValue("@HinhAnh", sp.HinhAnh);
-                        command.Parameters.AddWithValue("@DanhMucSP", sp.DanhMucSP);
-                        command.Parameters.AddWithValue("@SoLanTimKiem", 0);
-                        command.Parameters.AddWithValue("@TheLoai", sp.TheLoai);
-                        command.Parameters.AddWithValue("@HinhAnh2", sp.HinhAnh2);
-                        command.Parameters.AddWithValue("@HinhAnh3", sp.HinhAnh3);
-                        command.Parameters.AddWithValue("@HinhAnh4", sp.HinhAnh4);
-                        command.ExecuteNonQuery();
-                    }
-                }
-            }
-            catch (Exception Fail)
-            {
-                MessageBox.Show(Fail.Message);
-            }
-        }
-        public void xoa(string masp, string query)
-        {
-            try
-            {
-                Database database = new Database();
-                SqlConnection sqlConnection = database.getConnection();
-                using (SqlConnection connection = new SqlConnection(database.conStr))
-                {
-                    connection.Open();
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@MaSP", masp);
-                        command.ExecuteNonQuery();
-                    }
-                }
-            }
-            catch (Exception Fail)
-            {
-                MessageBox.Show(Fail.Message);
-            }
-        }
 
-        public bool themGioHang(string masp, string taikhoan, string query)
-        {
-            try
-            {
-                Database database = new Database();
-                SqlConnection sqlConnection = database.getConnection();
-                using (SqlConnection connection = new SqlConnection(database.conStr))
-                {
-                    connection.Open();
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@MaSP", masp);
-                        command.Parameters.AddWithValue("@TaiKhoan", taikhoan);
-                        command.ExecuteNonQuery();
-                    }
-                }
-            }
-            catch (Exception Fail)
-            {
-                return false;
-            }
-            return true;
-        }
-        public ObservableCollection<UC_SpGioHang> listGioHang()
-        {
-            string sql1 = $"Select * from GioHang inner join SanPham on GioHang.MaSP=SanPham.MaSP where GioHang.TaiKhoan='{PhanQuyen.taikhoan}'";
-
-            ObservableCollection<UC_SpGioHang> listSP = new ObservableCollection<UC_SpGioHang>();
-            Database database = new Database();
-            DataTable dt = database.getAllData(sql1);
-            try
-            {
-                if (dt != null & dt.Rows.Count > 0)
-                {
-                    foreach (DataRow row in dt.Rows)
-                    {
-                        UC_SpGioHang sp = new UC_SpGioHang();
-                        sp.masp.Text = row["MaSP"].ToString();
-                        sp.lblTenSP.Text = row["TenSP"].ToString();
-                        sp.lblTenShop.Text = row["TenShop"].ToString();
-                        sp.lblGiaGoc.Text = row["GiaGoc"].ToString();
-                        sp.lblGiaHTai.Text = row["GiaHTai"].ToString();
-                        sp.tinhtrang.Text = row["TinhTrang"].ToString();
-                        sp.mota.Text = row["MoTa"].ToString();
-                        BitmapImage bitmap = new BitmapImage();
-                        bitmap.BeginInit();
-                        bitmap.UriSource = new Uri(row["HinhAnh"].ToString(), UriKind.RelativeOrAbsolute);
-                        bitmap.EndInit();
-                        sp.hinhanh.Source = bitmap;
-                        listSP.Add(sp);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            return listSP;
-        }
-
-
-        public List<SanPham> listYeuThich(string sql1)
+        public List<SanPham> ListYeuThich(string sql1)
         {
             List<SanPham> listSP = new List<SanPham>();
-            Database database = new Database();
             DataTable dt = database.getAllData(sql1);
             if (dt != null && dt.Rows.Count > 0)
             {
@@ -187,63 +69,8 @@ namespace Do_an.Class
             }
             return listSP;
         }
-        public ObservableCollection<UC_SP_DaMua> listSPDamua(string xacNhan)
-        {
-            ObservableCollection<UC_SP_DaMua> SanPhamList = new ObservableCollection<UC_SP_DaMua>();
 
-            string taikhoan = PhanQuyen.taikhoan;
-            try
-            {
-                Database database = new Database();
-                string sql = "SELECT * FROM SP_DaMua INNER JOIN SanPham ON SP_DaMua.MaSP = SanPham.MaSP WHERE SP_DaMua.TaiKhoan = @TaiKhoan AND SP_DaMua.XacNhan = @XacNhan";
-
-                using (SqlConnection connection = new SqlConnection(database.conStr))
-                {
-                    connection.Open();
-
-                    using (SqlCommand command = new SqlCommand(sql, connection))
-                    {
-                        command.Parameters.AddWithValue("@TaiKhoan", taikhoan);
-                        command.Parameters.AddWithValue("@XacNhan", xacNhan);
-
-                        DataTable dt = new DataTable();
-                        using (SqlDataAdapter adapter = new SqlDataAdapter(command))
-                        {
-                            adapter.Fill(dt);
-                        }
-                        foreach (DataRow dr in dt.Rows)
-                        {
-                            UC_SP_DaMua sp = new UC_SP_DaMua();
-                            sp.tensp.Text = dr["TenSP"].ToString();
-                            sp.masp.Text = dr["MaSP"].ToString();
-                            sp.giagoc.Text = dr["GiaGoc"].ToString();
-                            sp.giaban.Text = dr["GiaHTai"].ToString();
-                            sp.tinhtrang.Text = dr["TinhTrang"].ToString();
-                            sp.tenshop.Text = dr["TenShop"].ToString();
-
-                            if (xacNhan == "no")
-                            {
-                                sp.giaohang.Text = "Đang chờ xác nhận từ người bán!";
-                                sp.btndanhgia.Visibility = Visibility.Collapsed;
-                            }
-                            BitmapImage bitmap = new BitmapImage();
-                            bitmap.BeginInit();
-                            bitmap.UriSource = new Uri(dr["HinhAnh"].ToString(), UriKind.RelativeOrAbsolute);
-                            bitmap.EndInit();
-                            sp.hinhanh.Source = bitmap;
-                            SanPhamList.Add(sp);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            return SanPhamList;
-        }
-
-        public void edit(string masp, ThemSP_Window sp)
+        public void LayThongTin_SP_LenFormChinhSua(string masp, ThemSP_Window sp)
         {
             Database database = new Database();
             SqlConnection conn = database.getConnection();
@@ -256,7 +83,7 @@ namespace Do_an.Class
                     {
                         sp.txtMaSP.Text = reader["MaSP"].ToString();
                         sp.txtTenSP.Text = reader["TenSP"].ToString();
-                        //sp.txtTenShop.Text = reader["TenShop"].ToString();
+                        sp.dtpNgayMua.Text = reader["NgayMua"].ToString();
                         sp.txtGiaGoc.Text = reader["GiaGoc"].ToString();
                         sp.txtGiaBan.Text = reader["GiaHTai"].ToString();
                         sp.txtTinhTrang.Text = reader["TinhTrang"].ToString();
@@ -273,7 +100,7 @@ namespace Do_an.Class
                 }
             }
         }
-        public void HienThiThongTin(string masp)
+        public void HienThiThongTin(string masp,string diachi)
         {
             ThongTin_Window tt = new ThongTin_Window();
 
@@ -286,6 +113,7 @@ namespace Do_an.Class
                 {
                     while (reader.Read())
                     {
+                       
                         tt.MaSP.Text = reader["MaSP"].ToString();
                         tt.TenSP.Text = reader["TenSP"].ToString();
                         tt.TenShop.Text = reader["TenShop"].ToString();
@@ -294,24 +122,24 @@ namespace Do_an.Class
                         tt.TinhTrang.Text = reader["TinhTrang"].ToString();
                         tt.MoTa.Text = reader["MoTa"].ToString();
                         tt.TinhTrang.Text = reader["TinhTrang"].ToString();
-                        //tt.cbDanhMuc.SelectedItem = reader["DanhMucSP"].ToString();
+                        DateTime ngaymua = (DateTime)reader["NgayMua"];
+                        tt.Ngaymua.Text = ngaymua.ToShortDateString();
                         BitmapImage bitmap = new BitmapImage();
                         bitmap.BeginInit();
                         bitmap.UriSource = new Uri(reader["HinhAnh"].ToString(), UriKind.RelativeOrAbsolute);
                         bitmap.EndInit();
                         tt.HinhAnh.Source = bitmap;
+                        tt.diachi.Text = diachi;
                     }
                 }
             }
-            //MessageBox.Show(tt.TenShop.Text);
             tt.ShowDialog();
         }
 
 
-        public ObservableCollection<UC_TopTimKiem> topDanhMucTimKiem(string sql)
+        public List<UC_TopTimKiem> TopDanhMucTimKiem(string sql)
         {
-            ObservableCollection<UC_TopTimKiem> categoriesList = new ObservableCollection<UC_TopTimKiem>();
-            Database database = new Database();
+            List<UC_TopTimKiem> categoriesList = new List<UC_TopTimKiem>();
 
             DataTable dt = database.getAllData(sql);
             foreach (DataRow row in dt.Rows)
@@ -328,52 +156,7 @@ namespace Do_an.Class
             }
             return categoriesList;
         }
-
-        public ObservableCollection<UC_SpBan> listSPDangBan(string sql, bool check)
-        {
-            try
-            {
-                ObservableCollection<UC_SpBan> SanPhamList = new ObservableCollection<UC_SpBan>();
-                List<string> listsp = new List<string>();
-                Database database = new Database();
-                DataTable dataTable = database.getAllData(sql);
-                if (dataTable != null && dataTable.Rows.Count > 0)
-                {
-                    foreach (DataRow row in dataTable.Rows)
-                    {
-                        UC_SpBan sp = new UC_SpBan();
-                        sp.masp.Text = row["MaSP"].ToString();
-                        sp.tensp.Text = row["TenSP"].ToString();
-                        sp.mota.Text = row["MoTa"].ToString();
-                        // sp.giagoc.Text = reader["GiaGoc"].ToString();
-                        sp.giaban.Text = row["GiaHTai"].ToString();
-                        sp.tinhtrang.Text = row["TinhTrang"].ToString();
-                        if (check)
-                        {
-                            sp.edit.Visibility = sp.delete.Visibility = Visibility.Collapsed;
-                        }
-                        else
-                        {
-                            sp.xacnhan.Visibility = Visibility.Collapsed;
-                            sp.txtxacnhan.Visibility = Visibility.Collapsed;
-                        }
-                        BitmapImage bitmap = new BitmapImage();
-                        bitmap.BeginInit();
-                        bitmap.UriSource = new Uri(row["HinhAnh"].ToString(), UriKind.RelativeOrAbsolute);
-                        bitmap.EndInit();
-                        sp.hinhanh.Source = bitmap;
-                        SanPhamList.Add(sp);
-                    }
-                }
-                return SanPhamList;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                return null;
-            }
-
-        }
+      
         public List<string> LoadHinhAnh(string maSP)
         {
             List<string> listHinhAnh = new List<string>();
@@ -396,6 +179,68 @@ namespace Do_an.Class
                 conn.Close();
             }
             return listHinhAnh;
+        }
+       
+        public void CapNhatSoLanTimKiem(string tenSP)
+        {
+            try
+            {
+                // Kết nối đến cơ sở dữ liệu
+                Database database = new Database();
+                using (SqlConnection conn = database.getConnection())
+                {
+                    conn.Open();
+
+                    // Lấy mã sản phẩm dựa trên tên sản phẩm
+                    string getMaSPQuery = $"SELECT MaSP FROM SanPham WHERE TenSP = @TenSP";
+                    SqlCommand getMaSPCommand = new SqlCommand(getMaSPQuery, conn);
+                    getMaSPCommand.Parameters.AddWithValue("@TenSP", tenSP);
+                    string maSP = getMaSPCommand.ExecuteScalar()?.ToString();
+                    if (!string.IsNullOrEmpty(maSP))
+                    {
+                        string updateQuery = $"UPDATE SanPham SET SoLanTimKiem = SoLanTimKiem + 1 WHERE MaSP = @MaSP";
+                        SqlCommand updateCommand = new SqlCommand(updateQuery, conn);
+                        updateCommand.Parameters.AddWithValue("@MaSP", maSP);
+                        updateCommand.ExecuteNonQuery();
+
+                        // Lấy danh mục sản phẩm của sản phẩm
+                        string getCategoryQuery = $"SELECT TheLoai FROM SanPham WHERE MaSP = @MaSP";
+                        SqlCommand getCategoryCommand = new SqlCommand(getCategoryQuery, conn);
+                        getCategoryCommand.Parameters.AddWithValue("@MaSP", maSP);
+                        string category = getCategoryCommand.ExecuteScalar()?.ToString();
+
+                        if (!string.IsNullOrEmpty(category))
+                        {
+                            string checkCategoryQuery = $"SELECT COUNT(*) FROM TopDanhMuc WHERE DanhMucSP = @Category";
+                            SqlCommand checkCategoryCommand = new SqlCommand(checkCategoryQuery, conn);
+                            checkCategoryCommand.Parameters.AddWithValue("@Category", category);
+                            int categoryCount = (int)checkCategoryCommand.ExecuteScalar();
+
+                            if (categoryCount == 0)
+                            {
+                                // Nếu danh mục sản phẩm chưa được đếm trong tài khoản của người dùng, thêm mới vào bảng TopDanhMuc
+                                string insertCategoryQuery = $"INSERT INTO TopDanhMuc (DanhMucSP, LuotTimKiem) VALUES (@Category, 1)";
+                                SqlCommand insertCategoryCommand = new SqlCommand(insertCategoryQuery, conn);
+                                insertCategoryCommand.Parameters.AddWithValue("@Category", category);
+                                //insertCategoryCommand.Parameters.AddWithValue("@MaSP", maSP);
+                                insertCategoryCommand.ExecuteNonQuery();
+                            }
+                            else
+                            {
+                                // Nếu danh mục sản phẩm đã được đếm trong tài khoản của người dùng, cập nhật số lần tìm kiếm
+                                string updateCategoryQuery = $"UPDATE TopDanhMuc SET LuotTimKiem = LuotTimKiem + 1 WHERE DanhMucSP = @Category";
+                                SqlCommand updateCategoryCommand = new SqlCommand(updateCategoryQuery, conn);
+                                updateCategoryCommand.Parameters.AddWithValue("@Category", category);
+                                updateCategoryCommand.ExecuteNonQuery();
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
