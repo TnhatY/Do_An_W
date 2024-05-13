@@ -337,6 +337,61 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style x:Key="FocusVisual6">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background6" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border6" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background6" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border6" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background6" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border6" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background6" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border6" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground6" Color="#FF838383"/>
+        <Style x:Key="ButtonStyle7" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual6}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background6}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border6}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="#F1D6FF"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#F1D6FF"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background6}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border6}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background6}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border6}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground6}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Window.Resources>
     <Grid Margin="10" Background="#FFF5E8F6">
         <Button Style="{DynamicResource ButtonStyle5}" x:Name="btnThoat" Width="35" Height="35" HorizontalAlignment="Right" VerticalAlignment="Top" Click="btnThoat_Click_1" Margin="0,0,0,0" BorderThickness="0,0,0,0" Background="{x:Null}">
@@ -368,14 +423,16 @@
                     <StackPanel Grid.Column="1" Margin="420,15,5,5">
                         <Grid Height="50" Margin="10,0,10,0">
                             <Image Source="/image/user2.png" HorizontalAlignment="Left"></Image>
-                            <TextBlock Width="200" HorizontalAlignment="Left" FontWeight="SemiBold" FontSize="15
-                                       " Margin="55,5,0,20">
-                                <Run x:Name="TenShop"></Run>
-                            </TextBlock>
-                            <StackPanel x:Name="starPanel" Orientation="Horizontal" Margin="55,25,0,0"/>
+                            <Button Style="{DynamicResource ButtonStyle7}" x:Name="spcuashop" HorizontalAlignment="Left" Background="Transparent" Margin="50,5,0,20" BorderBrush="{x:Null}" Click="spcuashop_Click" BorderThickness="0,0,0,0">
+                                <TextBlock FontWeight="SemiBold" FontSize="15" Margin="10 0 10 0">
+                                    <Run x:Name="TenShop"></Run>
+                                </TextBlock>
+                            </Button>
+                           
+                            <StackPanel x:Name="starPanel" Orientation="Horizontal" Margin="60,25,0,0"/>
 
                             
-                            <TextBlock Text="(" Margin="130,26,0,0" Foreground="#FF1E31B8" FontSize="14" FontWeight="Bold">
+                            <TextBlock Text="(" Margin="135,26,0,0" Foreground="#FF1E31B8" FontSize="14" FontWeight="Bold">
                                 <Run x:Name="sodanhgia"></Run>
                                 <Run Text="đánh giá)"></Run>
                             </TextBlock>
@@ -399,9 +456,9 @@
                         <Button Style="{DynamicResource ButtonStyle4}" x:Name="btnMua" Content="Mua ngay" HorizontalAlignment="Stretch" Background="Red"  Foreground="White" Padding="5" Margin="40,20,40,0" Click="btnMua_Click" FontSize="14" FontWeight="Bold" />
                         <Button Style="{DynamicResource ButtonStyle6}" x:Name="btnThemGioHang" Content="Thêm giỏ hàng" HorizontalAlignment="Stretch" Padding="5" Margin="40,10,40,0" Click="btnThemGioHang_Click" Background="#FFF3ABAB" FontSize="13" FontWeight="Bold" Foreground="#FFF11E1E" BorderBrush="#FFF81111" />
 
-                        <Button Style="{DynamicResource ButtonStyle6}" x:Name="yeuthich" Width="80" Height="25" Margin="10,20,0,0" HorizontalAlignment="Left" BorderBrush="#FFDF0808" Background="#FFFCFCFC" Click="yeuthich_Click">
+                        <Button Style="{DynamicResource ButtonStyle6}" x:Name="yeuthich" Width="85" Height="25" Margin="10,20,0,0" HorizontalAlignment="Left" BorderBrush="#FFDF0808" Background="#FFFCFCFC" Click="yeuthich_Click">
                             <Grid>
-                                <TextBlock Text="Lưu tin" HorizontalAlignment="Left" Margin="0,0,25,0" VerticalAlignment="Center"></TextBlock>
+                                <TextBlock x:Name="titleyeuthich" Text="Yêu Thích" HorizontalAlignment="Left" Margin="0,0,25,0" VerticalAlignment="Center"></TextBlock>
                                 <Image Source="/image/datim.png" HorizontalAlignment="Right"></Image>
                             </Grid>
                         </Button>
@@ -414,8 +471,8 @@
                         <TextBlock VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" Margin="40,-10,50,0" >
                             <Run x:Name="MoTa"></Run>
                         </TextBlock>
-                        <Image Source="/image/condition_ad.png" VerticalAlignment="Top" HorizontalAlignment="Left" Width="23" Margin="10,-13,0,0" ></Image>
-                        <TextBlock Text="Tình Trạng: " FontSize="14" Margin="45,-10,0,0" >
+                        <Image Source="/image/condition_ad.png" VerticalAlignment="Top" HorizontalAlignment="Left" Width="23" Margin="10,-6,0,0" ></Image>
+                        <TextBlock Text="Tình Trạng: " FontSize="14" Margin="45,-5,0,0" >
                             <Run x:Name="TinhTrang"></Run>
                         </TextBlock>
                        
@@ -436,12 +493,13 @@
                 </Border>
                 <Border  VerticalAlignment="Top" Margin="15,650,15,10">
                     <Grid Background="White" >
-                        <TextBlock Text=" Top sản phẩm nổi bật"  FontSize="14" FontWeight="Bold">
-
+                        <TextBlock Text="Các sản phẩm liên quan"  FontSize="14" FontWeight="Bold">
+,                       
                         </TextBlock>
+                        <TextBlock x:Name="Theloai" Width="0" Height="0"></TextBlock>
                         <TextBlock x:Name="chuDG" Margin="30,30,0,20"></TextBlock>
 
-                        <ItemsControl x:Name="thongtin" Margin="5,30,5,0">
+                        <ItemsControl x:Name="thongtin" Margin="5,30,5,10">
                             <ItemsControl.ItemsPanel>
                                 <ItemsPanelTemplate>
                                     <WrapPanel Orientation="Horizontal" />

@@ -47,7 +47,7 @@ namespace Do_an.Class
             }
             catch (Exception Fail)
             {
-                MessageBox.Show(Fail.Message);
+                MessageBox.Show("Mã sản phẩm không được để giá trị rỗng và không quá 10 ký tự!");
             }
         }
         public void Xoa_SP(string masp, string query)

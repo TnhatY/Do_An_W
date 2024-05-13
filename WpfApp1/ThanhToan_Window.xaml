@@ -288,12 +288,13 @@
         <Button x:Name="thoat" Style="{DynamicResource ButtonStyle5}" Width="25" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Transparent" Click="thoat_Click">
             <Image Source="/image/xx.png" Width="25" Height="25" ></Image>
         </Button>
+        <TextBlock x:Name="tenshop" Width="0" Height="0"> </TextBlock>
         <TextBlock x:Name="masp" Width="0" Height="0" Margin="190,18,190,19"></TextBlock>
         <TextBlock Grid.Row="0" Text="  Thanh Toán" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10" Width="130" />
         <TextBlock Text="Địa chỉ nhận hàng:" FontWeight="Bold" FontSize="13" Margin="20 50 10 0" />
-        <TextBlock x:Name="diachi" TextWrapping="Wrap" Margin="20 70 10 0" />
-        <Border Height="1" Background="Black" VerticalAlignment="Top" Margin="20 90 20 0"></Border>
-        <StackPanel Margin="20,100,0,10" >
+        <ComboBox x:Name="sodiachi" Height="25" VerticalAlignment="Top" Margin="20 70 20 0"></ComboBox>
+        <TextBlock x:Name="diachi" TextWrapping="Wrap" Width="0" Height="0" />
+        <StackPanel Margin="20,110,0,10" >
             <ScrollViewer MaxHeight="340" >
                 <Grid>
                     <ItemsControl x:Name="spmua" Margin="0 5 0 0">

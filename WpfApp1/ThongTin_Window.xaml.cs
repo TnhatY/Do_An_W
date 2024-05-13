@@ -21,7 +21,7 @@ namespace Do_an
             InitializeComponent();
         }
         SanPham_DAO sanPham_DAO = new SanPham_DAO();
-
+        NguoiBan nguoiBan = new NguoiBan();
         private void Button_Click(object sender, RoutedEventArgs e)
         {
            
@@ -31,11 +31,12 @@ namespace Do_an
         {
         }
 
-
+        public static bool kthongtin= false;
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            string tenshop = TenShop.Text;
-            string sql1 = $"SELECT top 5 * FROM SanPham where TenShop=N'{tenshop}' and MaSP!='{MaSP.Text}'";
+            Const.ktThongTin = true;
+            string theloai = Theloai.Text;
+            string sql1 = $"SELECT * FROM SanPham where TheLoai=N'{theloai}' and MaSP!='{MaSP.Text}'";
             if (sanPham_DAO.List_SP(sql1) == null)
             {
                 chuDG.Text = "Không có sản phẩm nào";
@@ -45,23 +46,28 @@ namespace Do_an
             DanhGia_DAO danhGia_DAO = new DanhGia_DAO();
             string sql = "SELECT COUNT(*) FROM DanhGia_SP WHERE TenShop = @TenShop GROUP BY TenShop";
 
-            sodanhgia.Text= danhGia_DAO.SoDanhGia(sql, tenshop);
+            sodanhgia.Text= danhGia_DAO.SoDanhGia(sql, TenShop.Text);
             string query = "Select sum(SoSao) FROM DanhGia_SP WHERE TenShop = @TenShop GROUP BY TenShop ";
-            int sosao= int.Parse(danhGia_DAO.SoDanhGia(query, tenshop));
+            int sosao= int.Parse(danhGia_DAO.SoDanhGia(query, TenShop.Text));
             int sodanhgia1 = int.Parse(sodanhgia.Text);
             if (sodanhgia1 == 0)
             {
                 danhGia_DAO.HienThiSoSao(0,starPanel);
-
             }
             else 
             {
                 danhGia_DAO.HienThiSoSao(sosao / sodanhgia1,starPanel);
             }
+            if (PhanQuyen.menu == "YeuThich")
+            {
+                titleyeuthich.Text = "Đã thích";
+                kthongtin = true;
+            }
         }
 
         private void btnThoat_Click_1(object sender, RoutedEventArgs e)
         {
+            Const.ktThongTin = false;
             Close();
         }
 
@@ -69,10 +75,6 @@ namespace Do_an
         {
             ThanhToan_Window thanhToan_Window = new ThanhToan_Window();
             thanhToan_Window.masp.Text = MaSP.Text;
-            //thanhToan_Window.tensp.Text = TenSP.Text;
-            //thanhToan_Window.tenshop.Text = TenShop.Text;
-            //thanhToan_Window.giaban.Text = GiaBan.Text;
-            //thanhToan_Window.hinhanh.Source = HinhAnh.Source;
             thanhToan_Window.Show();
             this.Hide();
         }
@@ -80,12 +82,10 @@ namespace Do_an
         private void btnThemGioHang_Click(object sender, RoutedEventArgs e)
         {
             string query = "insert into GioHang values (@MaSP,@TaiKhoan)";
-
             if (nguoiDung.ThemGioHang(MaSP.Text, PhanQuyen.taikhoan, query)==true|| nguoiDung.ThemGioHang(MaSP.Text, PhanQuyen.taikhoan, query) == false)
             {
                 MessageBox.Show("Đã thêm sản phẩm vào giỏ hàng");
             };
-           
         }
 
         private void xem_Click(object sender, RoutedEventArgs e)
@@ -97,11 +97,21 @@ namespace Do_an
 
         private void yeuthich_Click(object sender, RoutedEventArgs e)
         {
-            
-            string sql = "Insert into SP_YeuThich values (@MaSP,@TaiKhoan)";
-            if (nguoiDung.ThemGioHang(MaSP.Text, PhanQuyen.taikhoan, sql))
+            if(titleyeuthich.Text=="Yêu Thích")
             {
-                MessageBox.Show("Đã thêm sản phẩm vào mục yêu thich","Thông Báo");
+                string sql = "Insert into SP_YeuThich values (@MaSP,@TaiKhoan)";
+                if (nguoiDung.ThemGioHang(MaSP.Text, PhanQuyen.taikhoan, sql))
+                {
+                    MessageBox.Show("Đã thêm sản phẩm vào mục yêu thich", "Thông Báo");
+                    titleyeuthich.Text = "Đã Thích";
+                }
+            }
+            else
+            {
+                string sql = $"delete from SP_YeuThich where MaSP='{MaSP.Text}'";
+                nguoiBan.Xoa(sql);
+                MessageBox.Show("Bạn đã bỏ yêu thích sản phẩm!", "Thông báo");
+                titleyeuthich.Text = "Yêu Thích";
             }
         }
         private int _currentImageIndex = 0;
@@ -131,6 +141,13 @@ namespace Do_an
                 _currentImageIndex++;
                 CapNhatHinhAnh();
             }
+        }
+
+        private void spcuashop_Click(object sender, RoutedEventArgs e)
+        {
+            TopSanPham_Window topSanPham_Window = new TopSanPham_Window();
+            topSanPham_Window.tenshop.Text = TenShop.Text;
+            topSanPham_Window.ShowDialog();
         }
     }
 }

@@ -203,9 +203,9 @@
     <TextBlock Text="Đánh giá người bán" HorizontalAlignment="Center" Margin="10" Height="25" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" />
     
     <StackPanel Orientation="Horizontal" Margin="20,60,20,20" Background="#FFF9F9F9">
-        <TextBlock Text="Chất lượng sản phẩm" Margin="10,12,10,0" FontSize="13" />
+        <TextBlock Text="Chất lượng sản phẩm" Margin="10,12,10,0" FontSize="15" />
       
-        <ToggleButton x:Name="star1" Content="☆" Style="{StaticResource StarToggleButtonStyle}" Click="Star_Click" Margin="0,7,0,0"/>
+        <ToggleButton x:Name="star1" FontSize="17" Content="☆" Style="{StaticResource StarToggleButtonStyle}" Click="Star_Click" Margin="0,7,0,0"/>
             <ToggleButton x:Name="star2" Content="☆" Style="{StaticResource StarToggleButtonStyle}" Click="Star_Click" Margin="0,7,0,0"/>
             <ToggleButton x:Name="star3" Content="☆" Style="{StaticResource StarToggleButtonStyle}" Click="Star_Click" Margin="0,7,0,0"/>
             <ToggleButton x:Name="star4" Content="☆" Style="{StaticResource StarToggleButtonStyle}" Click="Star_Click" Margin="0,7,0,0"/>
@@ -214,7 +214,7 @@
    
     <Grid Margin="0,45,0,0">
 
-            <TextBlock Text="Nhận xét: " Height="20" VerticalAlignment="Top" Margin="30,70,0,0" FontSize="13" />
+            <TextBlock Text="Nhận xét: " Height="20" VerticalAlignment="Top" Margin="30,70,0,0" FontSize="15" />
        
         <TextBox x:Name="nhanxet" Height="150" VerticalAlignment="Top" Margin="30,100,30,0" />
 

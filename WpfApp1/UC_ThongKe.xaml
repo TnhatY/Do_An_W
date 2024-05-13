@@ -4,23 +4,51 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Do_an"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <Border Width="220" Height="100" VerticalAlignment="top" HorizontalAlignment="Left" Margin="50" CornerRadius="10" Background="#FFBE6ECA">
+             d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <Style TargetType="lvc:DefaultLegend">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="#FFE2C7E6">
+        <Border Width="220" Height="100" VerticalAlignment="top" HorizontalAlignment="Left" Margin="100 50 0 0" CornerRadius="10" Background="#FFBE6ECA">
             <Grid>
                 <Border Width="100" Height="100" VerticalAlignment="Top" HorizontalAlignment="Right" CornerRadius="0 10 10 90" Background="#FFAE51BC">
-                    <Image Source="/image/cart.png" Width="50" Margin="10 15 0 0" VerticalAlignment="Top"></Image>
+                    <Image Source="/image/sp.png" Width="50" Margin="10 15 0 0" VerticalAlignment="Top"></Image>
                 </Border>
-                <TextBlock Text="Tổng số sản phẩm" Foreground="#FFF8F8F8" Margin="5"></TextBlock>
-                <TextBlock x:Name="tongsanpham" Margin="20 30 0 030" FontSize="15" FontWeight="Bold" ></TextBlock>
+                <TextBlock Text="Tổng số sản phẩm" Foreground="#FFF8F8F8" Margin="10 10 100 0" FontSize="15" TextWrapping="Wrap" FontWeight="Bold"></TextBlock>
+                <TextBlock x:Name="tongsanpham" Margin="35 55 0 0" FontSize="20" FontWeight="Bold" Foreground="White" ></TextBlock>
             </Grid>
         </Border>
-        <Border Width="220" Height="100" VerticalAlignment="top" HorizontalAlignment="Left" Margin="350 50 0 0" CornerRadius="10" Background="#FF7DCAF0">
+        <Border Width="220" Height="100" VerticalAlignment="top" HorizontalAlignment="Left" Margin="375 50 0 0" CornerRadius="10" Background="#FF7D98F0">
             <Grid>
-                <Border Width="100" Height="100" VerticalAlignment="Top" HorizontalAlignment="Right" CornerRadius="0 10 10 90" Background="#FF5BB2DD"></Border>
-                <TextBlock Text="Tổng số shop" Margin="5" FontSize="13" Foreground="#FFFFFEFE"></TextBlock>
+                <Border Width="100" Height="100" VerticalAlignment="Top" HorizontalAlignment="Right" CornerRadius="0 10 10 90" Background="#FF6A88EB">
+                    <Image Source="/image/market2.png" Width="50" Margin="10 0 0 20"></Image>
+                </Border>
+                <TextBlock Text="Tổng số shop" Margin="10" FontSize="15" Foreground="#FFFFFEFE" FontWeight="Bold"></TextBlock>
+                <TextBlock x:Name="tongsoshop" Margin="35 55 0 0" FontSize="20" Foreground="White" FontWeight="Bold"></TextBlock>
             </Grid>
-            </Border>   
+            </Border>
+        <Border Width="220" Height="100" VerticalAlignment="top" HorizontalAlignment="Left" Margin="650 50 0 0" CornerRadius="10" Background="#FF7DCAF0">
+            <Grid>
+                <Border Width="100" Height="100" VerticalAlignment="Top" HorizontalAlignment="Right" CornerRadius="0 10 10 90" Background="#FF5BB2DD">
+                    <Image Source="/image/money.png" Width="50" Margin="10 0 0 20"></Image>
+                </Border>
+                <TextBlock Text="Số shop không có doanh thu" Margin="10 10 100 0" FontSize="15" Foreground="#FFFFFEFE" TextWrapping="Wrap" FontWeight="Bold"></TextBlock>
+                <TextBlock x:Name="kodoanhthu" Margin="35 55 0 0" FontSize="20" Foreground="White" FontWeight="Bold"></TextBlock>
+                
+            </Grid>
+        </Border>
+        <Grid Width="600" Height="400" VerticalAlignment="Bottom" Margin="00 0 0 20">
+            <lvc:CartesianChart Style="{DynamicResource CartesianChartStyle1}" Name="barChart" LegendLocation="Right" Margin="0 0 0 50">
+               
+                
+            </lvc:CartesianChart>
+            <TextBlock Text="Biểu đồ thống kê doanh thu của các shop" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold"></TextBlock>
+        </Grid>
     </Grid>
 </UserControl>

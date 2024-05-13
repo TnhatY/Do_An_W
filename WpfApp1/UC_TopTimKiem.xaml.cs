@@ -27,9 +27,7 @@ namespace Do_an
 
         private void btnSpTop_Click(object sender, RoutedEventArgs e)
         {
-            TopSanPham_Window topSanPham_Window = new TopSanPham_Window();
-            topSanPham_Window.DanhMuc.Text = danhmuc.Text;
-            topSanPham_Window.ShowDialog();
+            
         }
     }
 }

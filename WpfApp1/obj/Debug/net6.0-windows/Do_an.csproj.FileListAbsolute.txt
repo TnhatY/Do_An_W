@@ -570,3 +570,11 @@ D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_Thongke.g.cs
 D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_Thongke.baml
 D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SP_ThanhToan.g.cs
 D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SP_ThanhToan.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\LiveCharts.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\PhieuGiamGia.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\TongPhieuGiam.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\PhieuGiamGia.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\TongPhieuGiam.baml
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ThemVoucher.g.cs
+D:\Deadline\LTWINDOWS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\ThemVoucher.baml

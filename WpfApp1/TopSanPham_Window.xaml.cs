@@ -30,19 +30,30 @@ namespace Do_an
         {
             try
             {
-                //MessageBox.Show(DanhMuc.Text);
-                //string danhmuc = DanhMuc.Text;
-                string query = "select * from SanPham where TheLoai like N'%" + DanhMuc.Text + "%' and SoLanTimKiem > 0";
-                // string sql = $"Select * from SanPham where DanhMucSP='{danhmuc}'";
-                string sql2 = "Select * from TopDanhMuc where LuotTimKiem >= 0";
-                //string query = $"select * from SanPham where DanhMucSP like N'%" + category + "%' and SoLanTimKiem > 0";
+                if (Const.ktThongTin == false)
+                {
+                    string query = "select * from SanPham where TheLoai like N'%" + DanhMuc.Text + "%' and SoLanTimKiem > 0";
+                    title.Text = "Top sản phẩm được tìm kiếm nhiều";
+                    item.ItemsSource = SanPham_DAO.List_SP(query);
+                }
+                else
+                {
+                    string query = $"select * from SanPham where TenShop = N'{tenshop.Text}'";
+                    title.Text = "Các sản phẩm đang được bán của shop";
 
-                item.ItemsSource = SanPham_DAO.List_SP(query);
+                    item.ItemsSource = SanPham_DAO.List_SP(query);
+                }
+                
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void thoat_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

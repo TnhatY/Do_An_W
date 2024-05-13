@@ -25,19 +25,15 @@ namespace Do_an
     /// </summary>
     public partial class UC_DaMua : UserControl
     {
-        //public ObservableCollection<UC_SpBan> lis { get; set; }
+        
         NguoiDung nguoiDung=new NguoiDung();
         NguoiBan nguoiBan =new NguoiBan();
-        Database database = new Database();
         public UC_DaMua()
         {
             InitializeComponent();
             this.DataContext = this;
-            UC_SpBan uc =new UC_SpBan();
         }
-        //string sqlgioHang = $"Select * from GioHang inner join SanPham on GioHang.MaSP=SanPham.MaSP where GioHang.TaiKhoan='{PhanQuyen.taikhoan}'";
-        SanPham_DAO sanPham_DAO = new SanPham_DAO();
-
+        public event RoutedEventHandler ButtonClicked;
 
         public void CapNhatGioHang()
         {

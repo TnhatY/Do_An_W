@@ -47,6 +47,13 @@ namespace Do_an
                 bitmap.EndInit();
                 imagetim.Source = bitmap;
             }
+            if (ThongTin_Window.kthongtin) {
+                BitmapImage bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.UriSource = new Uri("/image/chuatim.png", UriKind.RelativeOrAbsolute);
+                bitmap.EndInit();
+                imagetim.Source = bitmap;
+            }
             try
             {
                 string query = $"select top 1 DiaChi From NguoiDung where HoTen=N'{tenshop.Text}'";
@@ -65,19 +72,5 @@ namespace Do_an
            
         }
 
-        private void tim_Checked(object sender, RoutedEventArgs e)
-        {
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/datim.png", UriKind.RelativeOrAbsolute);
-            bitmap.EndInit();
-            imagetim.Source = bitmap;
-            SanPham_DAO sanPham_DAO = new SanPham_DAO();
-            string sql = "Insert into SP_YeuThich values (@MaSP,@TaiKhoan)";
-            if (nguoiDung.ThemGioHang(masp.Text, PhanQuyen.taikhoan, sql))
-            {
-                return;
-            }
-        }
     }
 }

@@ -68,48 +68,63 @@ namespace Do_an
         }
         public void HienThiSoSao(int numberOfStars, StackPanel starPanel)
         {
-            starPanel.Children.Clear();
-            for (int i = 0; i < numberOfStars; i++)
+            try
             {
-                TextBlock saoTextBlock = new TextBlock();
-                saoTextBlock.Foreground = System.Windows.Media.Brushes.Red;
-                saoTextBlock.FontSize = 16;
-                saoTextBlock.Text = "☆";
-                starPanel.Children.Add(saoTextBlock);
-            }
+                starPanel.Children.Clear();
+                for (int i = 0; i < numberOfStars; i++)
+                {
+                    TextBlock saoTextBlock = new TextBlock();
+                    saoTextBlock.Foreground = System.Windows.Media.Brushes.Red;
+                    saoTextBlock.FontSize = 16;
+                    saoTextBlock.Text = "☆";
+                    starPanel.Children.Add(saoTextBlock);
+                }
 
-            for (int i = numberOfStars; i < 5; i++)
+                for (int i = numberOfStars; i < 5; i++)
+                {
+                    TextBlock saoTextBlock = new TextBlock();
+                    saoTextBlock.FontSize = 16;
+                    saoTextBlock.Text = "☆";
+                    starPanel.Children.Add(saoTextBlock);
+                }
+            }catch (Exception ex)
             {
-                TextBlock saoTextBlock = new TextBlock();
-                saoTextBlock.FontSize = 16;
-                saoTextBlock.Text = "☆";
-                starPanel.Children.Add(saoTextBlock);
+                MessageBox.Show(ex.Message);
             }
+           
         }
         public List<DanhGiaSP> XemDanhGia(string tenshop)
         {
-            List<DanhGiaSP> listdg=new List<DanhGiaSP> ();
-            string sql = $"select * from DanhGia_SP where TenShop = N'{tenshop}'";
-            Database database = new Database();
-            DataTable dt = database.getAllData(sql);
-            if (dt != null)
+            try
             {
-                foreach (DataRow row in dt.Rows)
+                List<DanhGiaSP> listdg = new List<DanhGiaSP>();
+                string sql = $"select * from DanhGia_SP where TenShop = N'{tenshop}'";
+                Database database = new Database();
+                DataTable dt = database.getAllData(sql);
+                if (dt != null)
                 {
-                    string ten = row["TenNgDG"].ToString();
-                    int soSao = int.Parse(row["SoSao"].ToString());
-                    DateTime ngay = (DateTime)row["NgayDG"];
-                    string ngaydg = ngay.ToShortDateString();
-                    string danhgias = row["DanhGia"].ToString();
-                    string avt = row["Avatar"].ToString();
-                    listdg.Add(new DanhGiaSP(ten, ngaydg, danhgias, soSao, avt));
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        string ten = row["TenNgDG"].ToString();
+                        int soSao = int.Parse(row["SoSao"].ToString());
+                        DateTime ngay = (DateTime)row["NgayDG"];
+                        string ngaydg = ngay.ToShortDateString();
+                        string danhgias = row["DanhGia"].ToString();
+                        string avt = row["Avatar"].ToString();
+                        listdg.Add(new DanhGiaSP(ten, ngaydg, danhgias, soSao, avt));
+                    }
+                    return listdg;
                 }
-                return listdg;
+                else
+                {
+                    return null;
+                }
             }
-            else
+            catch 
             {
                 return null;
             }
+          
         }
     }
 }

@@ -18,6 +18,8 @@ using System.Data.SqlClient;
 using System.Collections;
 using Do_an.Class;
 using System.Data;
+using System.Windows.Markup;
+using System.Data.Entity;
 
 namespace Do_an
 {
@@ -42,19 +44,19 @@ namespace Do_an
         {
 
         }
+
         string sql = $"select * from SP_YeuThich inner join SanPham on SanPham.MaSP=SP_YeuThich.MaSP where SP_YeuThich.TaiKhoan='{PhanQuyen.taikhoan}'";
-       
+        Database database = new Database();
 
 
         private void UC_gioHang_Loaded(object sender, RoutedEventArgs e)
         {
-           
+
             if (PhanQuyen.menu == "nguoimua")
             {
-                Database database = new Database();
-
+                themvoucher.Visibility = Visibility.Collapsed;
                 string sql1 = "Select NguoiDung.HoTen,NguoiDung.DiaChi,NguoiDung.SoDT, NguoiDung.Avatar, count(MaSP)+10 as soluotmua From NguoiDung inner join SP_DaMua on NguoiDung.TaiKhoan=SP_DaMua.TaiKhoan group by NguoiDung.TaiKhoan,NguoiDung.HoTen,NguoiDung.DiaChi,NguoiDung.SoDT,NguoiDung.Avatar";
-                
+
                 tittle.Text = "Top người mua nhiều";
                 try
                 {
@@ -70,13 +72,9 @@ namespace Do_an
                             uc_topdanhmuc.ten.Text = row["HoTen"].ToString();
                             uc_topdanhmuc.diachi.Text = row["DiaChi"].ToString();
                             uc_topdanhmuc.sdt.Text = row["SoDT"].ToString();
-                            //int sodanhgia = int.Parse(row["SoDanhGia"].ToString());
-                            // int sosao = int.Parse(row["TongSao"].ToString());
-                            // uc_topdanhmuc.sodanhgia.Text = row["SoDanhGia"].ToString();
-                            // uc_topdanhmuc.sosao.Text = (sosao / sodanhgia).ToString();
                             uc_topdanhmuc.stackSoSao.Visibility = Visibility.Collapsed;
                             uc_topdanhmuc.luotmua.Text = row["soluotmua"].ToString() + " lượt mua";
-                            uc_topdanhmuc.luotmua.Margin=new Thickness(100, 50, 0 ,0);
+                            uc_topdanhmuc.luotmua.Margin = new Thickness(100, 50, 0, 0);
                             BitmapImage bitmap = new BitmapImage();
                             bitmap.BeginInit();
                             bitmap.UriSource = new Uri(row["Avatar"].ToString(), UriKind.RelativeOrAbsolute);
@@ -92,10 +90,36 @@ namespace Do_an
                     MessageBox.Show(ex.Message);
                 }
             }
-            else if(PhanQuyen.menu=="YeuThich")
+            else if (PhanQuyen.menu == "YeuThich")
             {
+                themvoucher.Visibility = Visibility.Collapsed;
+                ThongTin_Window.kthongtin = false;
                 SanPham_DAO sanPham_DAO = new SanPham_DAO();
                 SP_GioHang.ItemsSource = sanPham_DAO.ListYeuThich(sql);
+            }
+            else if (PhanQuyen.loaiTk == "nguoiban")
+            {
+                try
+                {
+                    tittle.Text = "Danh sách mã giảm giá!";
+                    themvoucher.Visibility = Visibility.Visible;
+                    string sql = $"select * from Voucher where TenShop=N'{PhanQuyen.ten}'";
+                    List<PhieuGiamGia> list = new List<PhieuGiamGia>();
+                    DataTable dt = database.getAllData(sql);
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        PhieuGiamGia phieuGiamGia = new PhieuGiamGia();
+                        phieuGiamGia.TenKM.Text = dr["TenKM"].ToString();
+                        phieuGiamGia.giamgia.Text = dr["PhanTramGiam"].ToString();
+                        list.Add(phieuGiamGia);
+                    }
+                    SP_GioHang.ItemsSource = list;
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
         public void ReloadData()
@@ -138,6 +162,13 @@ namespace Do_an
                 MessageBox.Show("Không có sản phẩm nào được chọn!");
             }
            
+        }
+
+        private void themvoucher_Click(object sender, RoutedEventArgs e)
+        {
+            tittle.Text = "Danh sách mã giảm giá";
+            ThemVoucher themVoucher = new ThemVoucher();
+            themVoucher.ShowDialog();
         }
     }
 }

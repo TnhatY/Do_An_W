@@ -24,7 +24,7 @@ namespace Do_an
         {
             InitializeComponent();
         }
-        List<string> DanhMuc = new List<string> { "Điện thọai", "Đồ gia dụng", "Xe cộ", "Đồ điện tử", "Thời trang","Thể thao" };
+        List<string> DanhMuc = new List<string> { "Điện thoại", "Đồ gia dụng", "Xe cộ", "Đồ điện tử", "Thời trang","Thể thao" };
         List<string> TheLoai = new List<string> { "Iphone", "Bàn ghế", "Ô tô", "Xe máy", "Xe đạp","MacBook", "Máy tính", "Tivi", "Giày đá banh","Vợt cầu lông", "Đồ nội trợ", "Điện tử", "Máy tính bàn", "Laptop" };
         private void btnThoat_Click(object sender, RoutedEventArgs e)
         {
@@ -51,32 +51,93 @@ namespace Do_an
         {
             cbDanhMuc.ItemsSource = DanhMuc;
             cbTheLoai.ItemsSource= TheLoai;
-            //txtTenShop.Text=PhanQuyen.taikhoan.ToString();
+        }
+        static bool IsNumeric(string str)
+        {
+            double num;
+            return double.TryParse(str, out num);
         }
 
-     
         private void btnThem_Click_1(object sender, RoutedEventArgs e)
         {
-            SanPham sanPhamMoi = new SanPham();
-            sanPhamMoi.DanhMucSP = cbDanhMuc.Text;
-            sanPhamMoi.MaSP = txtMaSP.Text;
-            sanPhamMoi.TenSP = txtTenSP.Text;
-            sanPhamMoi.TenShop = PhanQuyen.ten;
-            sanPhamMoi.TinhTrang = txtTinhTrang.Text;
-            sanPhamMoi.GiaGoc = float.Parse(txtGiaGoc.Text);
-            sanPhamMoi.GiaHTai = float.Parse(txtGiaBan.Text);
-            sanPhamMoi.NgayMua = dtpNgayMua.Text;
-            sanPhamMoi.MoTa = txtMoTa.Text;
-            sanPhamMoi.TheLoai = cbTheLoai.Text;
-            sanPhamMoi.HinhAnh = imgHinhAnh.Source.ToString();
-            sanPhamMoi.HinhAnh2 = imgHinhAnh2.Source.ToString();
-            sanPhamMoi.HinhAnh3 = imgHinhAnh3.Source.ToString();
-            sanPhamMoi.HinhAnh4 = imgHinhAnh4.Source.ToString();
-            string query = "insert into SanPham values (@MaSP,@TenSP,@TenShop,@GiaGoc,@GiaHTai,@NgayMua,@TinhTrang,@MoTa,@HinhAnh,@DanhMucSP,@SoLanTimKiem,@TheLoai,@HinhAnh2,@HinhAnh3,@HinhAnh4)";
+            try
+            {
+                SanPham sanPhamMoi = new SanPham();
+                if(cbDanhMuc.Text == "")
+                {
+                    MessageBox.Show("Vui lòng chọn danh mục sản phẩm!", "Thông báo");
+                    return;
+                }
+                if (cbTheLoai.Text == "")
+                {
+                    MessageBox.Show("Vui lòng chọn thể loại sản phẩm!", "Thông báo");
+                    return;
+                }
+                if (txtMaSP.Text == "")
+                {
+                    MessageBox.Show("Vui lòng nhập mã sản phẩm!", "Thông báo");
+                    return;
+                }
+                if (txtTenSP.Text == "")
+                {
+                    MessageBox.Show("Vui lòng nhập tên sản phẩm!", "Thông báo");
+                    return;
+                }
+                if (txtTinhTrang.Text == "")
+                {
+                    MessageBox.Show("Vui lòng nhập tình trạng sản phẩm!", "Thông báo");
+                    return;
+                }
+                if (txtMoTa.Text == "")
+                {
+                    MessageBox.Show("Vui lòng nhập mô tả sản phẩm!", "Thông báo");
+                    return;
+                }
+                if (dtpNgayMua.Text == "")
+                {
+                    MessageBox.Show("Vui lòng chọn ngày mua sản phẩm!", "Thông báo");
+                    return;
+                }
+                if (IsNumeric(txtGiaGoc.Text) && IsNumeric(txtGiaBan.Text))
+                {
+                    sanPhamMoi.GiaGoc = float.Parse(txtGiaGoc.Text);
+                    sanPhamMoi.GiaHTai = float.Parse(txtGiaBan.Text);
+                }
+                else
+                {
+                    MessageBox.Show("Giá nhập vào không đúng định dạng!", "Thông báo");
+                    return;
+                }
+                if (imgHinhAnh.Source.ToString() == "")
+                {
+                    MessageBox.Show("Vui lòng thêm hình ảnh cho sản phẩm", "Thông báo");
+                    return;
+                }
+                sanPhamMoi.DanhMucSP = cbDanhMuc.Text;
+                sanPhamMoi.MaSP = txtMaSP.Text;
+                sanPhamMoi.TenSP = txtTenSP.Text;
+                sanPhamMoi.TenShop = PhanQuyen.ten;
+                sanPhamMoi.TinhTrang = txtTinhTrang.Text;
+                sanPhamMoi.NgayMua = dtpNgayMua.Text;
+                sanPhamMoi.MoTa = txtMoTa.Text;
+                sanPhamMoi.TheLoai = cbTheLoai.Text;
+                sanPhamMoi.HinhAnh = imgHinhAnh.Source.ToString();
+                sanPhamMoi.HinhAnh2 = imgHinhAnh2.Source.ToString();
+                sanPhamMoi.HinhAnh3 = imgHinhAnh3.Source.ToString();
+                sanPhamMoi.HinhAnh4 = imgHinhAnh4.Source.ToString();
+                string query = "insert into SanPham values (@MaSP,@TenSP,@TenShop,@GiaGoc,@GiaHTai,@NgayMua,@TinhTrang,@MoTa,@HinhAnh,@DanhMucSP,@SoLanTimKiem,@TheLoai,@HinhAnh2,@HinhAnh3,@HinhAnh4)";
+
+                nguoiBan.Them_Sua_SP(sanPhamMoi, query);
+                nguoiBan.ThemSP_Ban(txtMaSP.Text);
+                Close();
+            }
+            catch
+            {
+
+            }
+               
           
-            nguoiBan.Them_Sua_SP(sanPhamMoi, query);
-            nguoiBan.ThemSP_Ban(txtMaSP.Text);
-            Close();
+          
         }
 
         private void btnChinhSua(object sender, RoutedEventArgs e)

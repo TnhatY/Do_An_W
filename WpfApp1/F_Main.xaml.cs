@@ -92,14 +92,20 @@ namespace Do_an
                 btnNguoiBan.Visibility= Visibility.Collapsed;
                 btnNguoiMua.Visibility=Visibility.Collapsed;
                 btnTrangChu.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
-
+                btnCaiDat.Visibility = Visibility.Collapsed;
             }
             else if (PhanQuyen.loaiTk == "nguoiban")
             {
                 btnNguoiBan.Visibility = Visibility.Collapsed;
                 btnNguoiMua.Visibility= Visibility.Collapsed;
                 btnTrangChu.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
-
+                BitmapImage bitmap1 = new BitmapImage();
+                bitmap1.BeginInit();
+                bitmap1.UriSource = new Uri("/image/voucher1.png", UriKind.RelativeOrAbsolute);
+                bitmap1.EndInit();
+                imagethongke.Source = bitmap1;
+                txtthongke.Padding=new Thickness(0,0,30,0);
+                txtthongke.Text = "Mã giảm giá";
             }
             else
             {
@@ -109,6 +115,21 @@ namespace Do_an
                 btnTrangChu.Visibility = Visibility.Collapsed;
                 btnDaMua.Visibility = Visibility.Collapsed;
                 btnyeuthich.Visibility= Visibility.Collapsed;
+            }
+            if (PhanQuyen.taikhoan == "admin")
+            {
+                txtthongke.Text = "Thống Kê";
+                txtthongke.Padding=new Thickness(0,0,45,0);
+                BitmapImage bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.UriSource = new Uri("/image/tk1.png", UriKind.RelativeOrAbsolute);
+                bitmap.EndInit();
+                imageTittle.Source = bitmap;
+                BitmapImage bitmap1 = new BitmapImage();
+                bitmap1.BeginInit();
+                bitmap1.UriSource = new Uri("/image/thongke.png", UriKind.RelativeOrAbsolute);
+                bitmap1.EndInit();
+                imagethongke.Source = bitmap1;
             }
         }
 
@@ -221,30 +242,34 @@ namespace Do_an
            
         }
 
-        private void btnCaiDat_Click(object sender, RoutedEventArgs e)
+        private void btnVoucher_Click(object sender, RoutedEventArgs e)
         {
-            UC_CaiDat uC_CaiDat = new UC_CaiDat();
-            UC_Thongke uC_Thongke = new UC_Thongke();
-            user.Content = uC_Thongke;
-            //thanhmenu.IsChecked = true;
+            PhanQuyen.menu = "Voucher";
+            if (PhanQuyen.loaiTk == "admin")
+            {
+                UC_Thongke uC_Thongke = new UC_Thongke();
+                user.Content = uC_Thongke;
+            }
+            else if (PhanQuyen.loaiTk == "nguoiban")
+            {
+                
+                UC_gioHang uC_GioHang = new UC_gioHang();
+                user.Content = uC_GioHang;
+                BitmapImage bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.UriSource = new Uri("/image/giamgia.png", UriKind.RelativeOrAbsolute);
+                bitmap.EndInit();
+                imageTittle.Source = bitmap;
+            }
             Const.listgiohang.Clear();
             Const.kiemTraMuaHang = false;
-
-
             btnyeuthich.Background = null;
             btnyeuthich.BorderThickness = new Thickness(0);
-
             btnBanHang.BorderThickness = new Thickness(0);
             btnDaMua.BorderThickness = new Thickness(0);
             btnTrangChu.BorderThickness = new Thickness(0);
             btnGioHang.BorderThickness = new Thickness(0);
             btnCaiDat.BorderThickness = new Thickness(2,0,0,2);
-            //btnThongKe.BorderThickness = new Thickness(0);
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/caidat3.png", UriKind.RelativeOrAbsolute); 
-            bitmap.EndInit();
-            imageTittle.Source = bitmap;
             btnBanHang.Background = null;
             btnDaMua.Background = null;
             btnTrangChu.Background = null;
@@ -254,7 +279,6 @@ namespace Do_an
             btnNguoiMua.BorderThickness = new Thickness(0);
             btnNguoiBan.Background = null;
             btnNguoiBan.BorderThickness = new Thickness(0);
-
         }
         public static string texttimkiem = "";
         private void timkiem_Click(object sender, RoutedEventArgs e)
@@ -262,7 +286,6 @@ namespace Do_an
             timkiem1.Text = null;
             texttimkiem = txttimkiem.Text;
             sanPham_DAO.CapNhatSoLanTimKiem(texttimkiem);
-
             UC_MuaSam uc = new UC_MuaSam();
             user.Content = uc;
         }
@@ -272,8 +295,6 @@ namespace Do_an
             PhanQuyen.menu = "YeuThich";
             Const.listgiohang.Clear();
             Const.kiemTraMuaHang = false;
-
-
             UC_gioHang uc = new UC_gioHang();
             user.Content = uc;
             btnBanHang.BorderThickness = new Thickness(0);

@@ -24,5 +24,20 @@ namespace Do_an
         {
             InitializeComponent();
         }
+        public event RoutedEventHandler ButtonClicked;
+       
+        private void voucher_Click(object sender, RoutedEventArgs e)
+        {
+            
+            ButtonClicked?.Invoke(this, e);
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (TongPhieuGiam.checkgiamgia)
+            {
+                tenvoucher.Text = "Đã giảm";
+            }
+        }
     }
 }

@@ -94,12 +94,12 @@ namespace Do_an
                 DanhGia_DAO danhGia_DAO = new DanhGia_DAO();
                 DanhGiaSP danhGiaSP = new DanhGiaSP(tenshop.Text,PhanQuyen.ten,ngayDg.Text,nhanxet.Text,int.Parse(sosao.Text),PhanQuyen.avatar);  
                 danhGia_DAO.ThemDG(danhGiaSP,PhanQuyen.avatar);
-                MessageBox.Show("Cảm ơn bạn đã đánh giá!");
+                MessageBox.Show("Cảm ơn bạn đã đánh giá!","Thông báo");
                 Close();
             }
             catch (Exception Fail)
             {
-                MessageBox.Show(Fail.Message);
+                MessageBox.Show("Bạn chưa điền thông tin đánh giá!","Thông báo");
             }
         }
     }

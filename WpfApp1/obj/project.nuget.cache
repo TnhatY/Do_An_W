@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "0uD5xxMUsquyv5EndwNzo6bAV1caaSYe99XQqeGQPHvjkd3kR+fDt/R3MdKN/WVnnpZmiQF4BEm95ECLo2nAhg==",
+  "dgSpecHash": "0+p+EVW4r3LxbWB4sEPm7qW5jdicwODHRsXmXHzHK0VvzS/QAOnW+2ACXfY1d6Dbps7nfDbi4JuxJPNEOK9zqg==",
   "success": true,
   "projectFilePath": "D:\\Deadline\\LTWINDOWS\\Do_An_CK\\WpfApp1\\Do_an.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\materialdesigncolors\\3.0.0\\materialdesigncolors.3.0.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\materialdesignthemes\\5.0.0\\materialdesignthemes.5.0.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -58,5 +60,26 @@
     "C:\\Users\\ACER\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

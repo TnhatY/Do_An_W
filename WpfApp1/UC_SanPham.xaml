@@ -179,9 +179,9 @@
         <Button Style="{DynamicResource ButtonStyle2}" Background="Transparent" BorderThickness="0,0,0,0" Click="Button_Click_1" >
             <Grid Height="200">
                 <Image x:Name="hinhanh" Source="{Binding HinhAnh}"  Width="130" Height=" 120" VerticalAlignment="Top" Margin="5" Stretch="UniformToFill" />
-                <ToggleButton Style="{DynamicResource ToggleButtonStyle1}" x:Name="tim" Width="25" Height="25" Background="Transparent" BorderThickness="0" Margin="100,20,0,0" Checked="tim_Checked">
-                    <Image x:Name="imagetim" Source="/image/chuatim.png"></Image>
-                </ToggleButton>
+                
+                <Image x:Name="imagetim" Source="/image/chuatim.png" Width="20" HorizontalAlignment="Right" Margin="0 20 10 0"></Image>
+               
                 <TextBlock x:Name="masp" Text="{Binding MaSP}" Width="100" Height="20" Margin="200,40,0,0" Foreground="#FFF"
                HorizontalAlignment="Center"
                FontSize="16" ></TextBlock>

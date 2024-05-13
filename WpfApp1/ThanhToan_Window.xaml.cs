@@ -28,13 +28,18 @@ namespace Do_an
         }
         Database database = new Database();
         NguoiDung nguoiDung =new NguoiDung();
-      
+        SanPham_DAO sanPham_DAO = new SanPham_DAO();
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            
             phivanchuyen.Text = "120";
             float giaBan = 0;
             float phiVanChuyen = float.Parse(phivanchuyen.Text);
             spmua.ItemsSource = null;
+           
+            sodiachi.ItemsSource = nguoiDung.SoDiaChi();
+            sodiachi.SelectedIndex = 0;
+
             try
             {
                 List<UC_SP_ThanhToan> list = new List<UC_SP_ThanhToan>();
@@ -44,6 +49,7 @@ namespace Do_an
                     foreach (var sp in Const.listgiohang)
                     {
                         string sql1 = $"select * from SanPham Where MaSP='{sp}'";
+
                         dtt = database.getAllData(sql1);
                         foreach (DataRow dr in dtt.Rows)
                         {
@@ -58,9 +64,11 @@ namespace Do_an
                             bitmap.EndInit();
                             uC_SP_ThanhToan.hinhanhsp.Source = bitmap;
                             list.Add(uC_SP_ThanhToan);
+                            uC_SP_ThanhToan.ButtonClicked += themVoucher_Click;
+                            tenshop.Text= dr["TenShop"].ToString();
                         }
                     }
-                   
+
                     spmua.ItemsSource= list;
                 }
                 else
@@ -80,6 +88,8 @@ namespace Do_an
                         bitmap.EndInit();
                         uC_SP_ThanhToan.hinhanhsp.Source = bitmap;
                         list.Add(uC_SP_ThanhToan);
+                        uC_SP_ThanhToan.ButtonClicked += themVoucher_Click;
+                        tenshop.Text = dr["TenShop"].ToString();
                     }
                     spmua.ItemsSource = list;
                 }
@@ -91,9 +101,22 @@ namespace Do_an
             giaban1.Text = giaBan.ToString();
             float tongThanToan = giaBan + phiVanChuyen;
             tongthanhtoan.Text = tongthanhtoan1.Text = tongThanToan.ToString();
-            string sql = $"select DiaChi From NguoiDung where TaiKhoan='{PhanQuyen.taikhoan}'";
-            DataTable dt = database.getAllData(sql);
-            diachi.Text = dt.Rows[0]["DiaChi"].ToString();
+            
+        }
+       
+        private void themVoucher_Click(object sender, RoutedEventArgs e)
+        {
+            TongPhieuGiam tongPhieuGiam = new TongPhieuGiam();
+            tongPhieuGiam.tenshop.Text = tenshop.Text;
+            tongPhieuGiam.ShowDialog();
+            if (TongPhieuGiam.checkgiamgia)
+            {
+                float phantramgiam = float.Parse(giaban1.Text) * PhieuGiamGia.phantramgiamgia / 100;
+                float gb1 = float.Parse(giaban1.Text)- phantramgiam;
+                float gb2 = float.Parse(tongthanhtoan.Text) - phantramgiam;
+                tongthanhtoan.Text = tongthanhtoan1.Text = gb2.ToString();   
+                giaban1.Text = gb1.ToString();
+            }
         }
         private void btnMua_Click(object sender, RoutedEventArgs e)
         {
@@ -109,9 +132,11 @@ namespace Do_an
             {
                 nguoiDung.Dat_Hang(masp.Text);
             }
+            MessageBox.Show("Đơn hàng đã được đặt! Vui lòng kiểm tra trạng thái giao hàng!", "Thông báo");
+
             Close();
         }
-
+        
         private void thoat_Click(object sender, RoutedEventArgs e)
         {
             Const.kiemTraThanhToan = false;

@@ -78,14 +78,40 @@ namespace Do_an.Class
                         command.ExecuteNonQuery();
                     }
                 }
-                MessageBox.Show("Đơn hàng đã được đặt! Vui lòng kiểm tra trạng thái giao hàng!");
-
             }
             catch (Exception Fail)
             {
                 MessageBox.Show(Fail.Message);
             }
-
+        }
+        public List<string> SoDiaChi()
+        {
+            try
+            {
+                List<string> sodiachi = new List<string>();
+                Database database = new Database();
+                SqlConnection conn = database.getConnection();
+                {
+                    conn.Open();
+                    using (SqlCommand command = new SqlCommand($"SELECT * FROM NguoiDung where TaiKhoan = '{PhanQuyen.taikhoan}'", conn))
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            sodiachi.Add(reader["DiaChi"].ToString());
+                            sodiachi.Add(reader["DiaChi2"].ToString());
+                            sodiachi.Add(reader["DiaChi3"].ToString());
+                        }
+                    }
+                    conn.Close();
+                }
+                return sodiachi;
+            }catch (Exception Fail)
+            {
+                MessageBox.Show(Fail.Message);
+                return null;
+            }
+            
         }
         public List<UC_SP_DaMua> ListSPDamua(string xacNhan)
         {

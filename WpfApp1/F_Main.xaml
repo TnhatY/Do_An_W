@@ -596,13 +596,13 @@
                         <Button x:Name="btnyeuthich"  Style="{DynamicResource ButtonStyle3}"  Height="40" Width="130" Margin="0,10,0,0" Background="Transparent" BorderThickness="0,0,0,0" BorderBrush="#FFFCF8F8" Click="btnYeuThich_Click" >
                             <Grid Width="150">
                                 <Image Source="/image/yeuthich2.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="22"></Image>
-                                <TextBlock Text="Yêu Thích" Padding="0,0,45,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
+                                <TextBlock Text="Yêu Thích" Padding="0,0,47,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
                             </Grid>
                         </Button>
-                        <Button x:Name="btnCaiDat"  Style="{DynamicResource ButtonStyle3}"  Height="40" Width="130" Margin="0,10,0,0" Background="Transparent" BorderThickness="0,0,0,0" BorderBrush="#FFFCF8F8" Click="btnCaiDat_Click" >
+                        <Button x:Name="btnCaiDat"  Style="{DynamicResource ButtonStyle3}"  Height="40" Width="130" Margin="0,10,0,0" Background="Transparent" BorderThickness="0,0,0,0" BorderBrush="#FFFCF8F8" Click="btnVoucher_Click" >
                             <Grid Width="150">
-                                <Image Source="/image/setting.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="22"></Image>
-                                <TextBlock Text="Cài Đặt" Padding="0,0,60,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
+                                <Image x:Name="imagethongke" Source="/image/voucher1.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="22"></Image>
+                                <TextBlock x:Name="txtthongke" Text="Mã giảm giá" Padding="0,0,30,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
                             </Grid>
                         </Button>
                         <Button x:Name="btnNguoiBan"  Style="{DynamicResource ButtonStyle3}"  Height="40" Width="130" Margin="0,10,0,0" Background="Transparent" BorderThickness="0,0,0,0" BorderBrush="#FFFCF8F8" Click="btnNguoiBan_Click" >

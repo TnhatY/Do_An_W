@@ -16,13 +16,22 @@
     <Compile Update="LyDoHuyDon_WD.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PhieuGiamGia.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ThanhToan_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ThemSP_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ThemVoucher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ThongTin_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TongPhieuGiam.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="TopBan_Window.xaml.cs">
@@ -90,13 +99,22 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PhieuGiamGia.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ThanhToan_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThemSP_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ThemVoucher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ThongTin_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TongPhieuGiam.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TopBan_Window.xaml">

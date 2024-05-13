@@ -28,7 +28,11 @@ namespace Do_an
         private void xacnhanhuy_Click(object sender, RoutedEventArgs e)
         {
             confirm = "yes";
-            Close();
+            if(l1.IsChecked != true&&l2.IsChecked!=true&&l3.IsChecked!=true&&l4.IsChecked!=true&&l5.IsChecked!=true)
+            {
+                MessageBox.Show("Vui lòng cho chúng tôi biết lý do bạn muốn huỷ đơn", "Thông báo");
+            }else
+                Close();
         }
 
         private void thoat_Click(object sender, RoutedEventArgs e)
